@@ -11,3 +11,4 @@ and JavaScript<br><br><a href="https://owu.com.ua/kursy-programuvannya-online/ku
 <li>HTML/CSS</li>
 <li>DevOps Tools & Deploy</li>
 </ul><br><br>
+время обучения - 7 месяцев.
