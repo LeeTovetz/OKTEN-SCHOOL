@@ -14,4 +14,6 @@ and JavaScript<br><br><a href="https://owu.com.ua/kursy-programuvannya-online/ku
 </ul><br><br>
 время обучения - 7 месяцев.<br>
 В конце курса дипломный проект "Создание интернет магазина".<br>
-Разрабатываем как Frontend так и Backend части приложения.<br>
+Разрабатываем <br>
+как Frontend <br>
+так и Backend части приложения.<br>
