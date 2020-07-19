@@ -1,0 +1,197 @@
+body {
+    background: url(../img/background.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+    font-family: 'Fredericka the Great', cursive;
+    color: #000000;
+    font-size: 18px;
+}
+
+
+/* ================================================ */
+
+.back-to-top {
+    width: 75px;
+    height: 75px;
+    Position: fixed;
+    Bottom: 15px;
+    Right: 15px;
+    z-index: 1;
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.back-to-top:hover {
+    background: #09b2ca;
+}
+
+.portal-image {
+    width: 75px;
+    height: 75px;
+}
+
+
+/* ================================================ */
+
+.menu {
+    height: 80px;
+    display: flex;
+    text-align: center;
+}
+
+.menu-box {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
+
+.menu-item {
+    padding: 10px;
+}
+
+.menu-item:hover {
+    background: #d3e153;
+}
+
+.logo {
+    height: 65px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #09b2ca;
+}
+
+
+/* ================================================================ */
+
+main {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+.content-item-first {
+    width: 100%;
+    height: 625px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.item-first-image {
+    padding: 40px 0 0 0;
+    height: 70%;
+}
+
+#super-img:hover {
+    -webkit-transform: rotateZ(340deg);
+    -ms-transform: rotateZ(340deg);
+    transform: rotateZ(340deg);
+}
+
+p {
+    text-align: justify;
+    text-indent: 3em;
+    margin: 0 20px 0 20px;
+}
+
+.content-item {
+    padding-top: 1px;
+    width: 100%;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+h1 {
+    font-size: 35px;
+    color: #000000;
+}
+
+.item-title {
+    padding: 50px 0 0 0;
+    width: 100%;
+}
+
+.item-content {
+    padding: 50px 20px 50px 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+.item-image {
+    height: 50%;
+    height: 100%;
+    width: 50%;
+}
+
+.item-text {
+    height: 50%;
+    width: 50%;
+    height: 100%;
+}
+
+.content-image {
+    height: 400px;
+}
+
+.content-image:hover {
+    box-shadow: 0px 0px 150px #000000;
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.2);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.2);
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.2);
+    transition: all 200ms ease-in;
+    transform: scale(1.2);
+}
+
+.content-text {
+    padding: 50px 0 0 0;
+}
+
+
+/* ================================================================ */
+
+footer {
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+.footer-item {
+    width: 400px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-img {
+    height: 50px;
+}
+
+.footer-li:hover {
+    background: #d3e153;
+}
