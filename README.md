@@ -13,7 +13,7 @@ Program of the course:<br><ul>
 <li>HTML/CSS;</li>
 <li>DevOps Tools & Deploy;</li>
 </ul><br><br>
-время обучения - 7 месяцев.<br>
+Время обучения - 7 месяцев.<br>
 В конце курса дипломный проект "Создание интернет-магазина".<br>
 Разрабатываем <br>
 как Frontend <br>
