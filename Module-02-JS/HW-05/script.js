@@ -136,11 +136,11 @@ document.writeln(st1, ' ', st2, ' ', st3);
 
 // Task No. 04
 
-//let username = prompt('Введите Имя');
-//let surname = prompt('Введите фамилию');
-//let patronymic = prompt('Введите отчество');
-//console.log(username + ' ' + surname  + ' ' + patronymic);
-//document.writeln(username + ' ' + surname  + ' ' + patronymic);
+let username = prompt('Введите Имя');
+let surname = prompt('Введите фамилию');
+let patronymic = prompt('Введите отчество');
+console.log(username + ' ' + surname  + ' ' + patronymic);
+document.writeln(username + ' ' + surname  + ' ' + patronymic);
 
 // Task No. 05
 
