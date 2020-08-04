@@ -111,34 +111,34 @@ for (const list7Element of list7) {
 // Task No. 18
 // Створити цикл for на 10  ітерацій з кроком 1. Вивести поточний номер кроку через console.log та document.write
 
-/*for (let i = 1; i < 11; i++) {
+for (let i = 1; i < 11; i++) {
     console.log(i);
     document.writeln(i);
     document.writeln('<br>');
-}*/
+}
 
 // Task No. 19
 // Створити цикл for на 100 ітерацій з кроком 1. Вивести поточний номер кроку через console.log та document.write
 
-/*for (let i = 1; i < 101; i++) {
+for (let i = 1; i < 101; i++) {
     console.log(i);
     document.writeln(i);
     document.writeln('<br>');
-}*/
+}
 
 // Task No. 20
 // Створити цикл for на 100 ітерацій з кроком 2. Вивести поточний номер кроку через console.log та document.write
 
-/*for (let i = 1; i < 101; i+=2) {
+for (let i = 1; i < 101; i+=2) {
     console.log(i);
     document.writeln(i);
     document.writeln('<br>');
-}*/
+}
 
 // Task No. 21
 // Створити цикл for на 100 ітерацій. Вивести тільки парні кроки. через console.log + document.write
 
-/*for (let i = 1; i < 101; i++) {
+for (let i = 1; i < 101; i++) {
     if (i%2 === 0) {
         console.log(i);
         document.writeln(i);
@@ -146,12 +146,12 @@ for (const list7Element of list7) {
 
     }
 
-}*/
+}
 
 // Task No. 23
 // Створити цикл for на 100 ітерацій. Вивести тільки парні кроки. через console.log + document.write
 
-/*for (let i = 1; i < 101; i++) {
+for (let i = 1; i < 101; i++) {
     if (i%2 !== 0) {
         console.log(i);
         document.writeln(i);
@@ -159,7 +159,7 @@ for (const list7Element of list7) {
 
     }
 
-}*/
+}
 
 
 // Task No. 24
