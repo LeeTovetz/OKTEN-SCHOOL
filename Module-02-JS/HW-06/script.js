@@ -1,21 +1,21 @@
 // Task No. 01-04
 
-/*let numbers = [89,45,1943,5,548];
+let numbers = [89,45,1943,5,548];
 console.log(numbers);
 
 let str = ['oleg', 'j', 'ten', 'mesh', 'asha'];
 console.log(str);
 
 let mas = [20,30,50, 'summer', 'spring', 'year', 10>5, 12!=='21', 5=='5'];
-console.log(mas);*/
+console.log(mas);
 
 // Task No. 05
 
-/*let list = [];
+let list = [];
 list[0] = 'ten';
 list[1] = 454554;
 list[2] = 7679494;
-console.log(list);*/
+console.log(list);
 
 // Task No. 07
 // За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом всередині
@@ -34,19 +34,19 @@ for (let i = 0; i < 10; i++) {
 // Task No. 09
 // За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом всередині.
 
-/*let counter = 0;
+let counter = 0;
 while (counter < 20) {
     document.writeln (`<div><h1>w ${counter}</h1></div>`);
     counter++;
-}*/
+}
 
 // Task No. 10
 // За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом і індексом всередині.
-/*let counter = 1;
+let counter = 1;
 while (counter <= 20) {
     document.writeln (`<div><h1>milk ${counter}</h1></div>`);
     counter++;
-}*/
+}
 
 // Task No. 11
 // Створити масив з 10 числових елементів. Вивести в консоль всі його елементи в циклі.
@@ -165,17 +165,17 @@ for (let i = 1; i < 101; i++) {
 // Task No. 24
 // Відтворити роботу годинника, відрахувавши 2 хвилини (2 цикли! 1й - хвилини, 2й - секунди)
 
-/*for (let minute = 0; minute < 2; minute++) {
+for (let minute = 0; minute < 2; minute++) {
     for (let sec = 0; sec < 60; sec++) {
         console.log('min: ' + minute +' '+'sec: ' + sec);
 
     }
-}*/
+}
 
 // Task No. 25
 // Відтворити роботу годинника, відрахувавши  2 години 20 хвилини (3 цикли! 1й - години, 2й - хвилини, 3й - секунди)
 
-/*for (let hour = 0; hour < 3; hour++) {
+for (let hour = 0; hour < 3; hour++) {
     for (let minute = 0; minute < 60; minute++) {
         if (hour === 2 && minute === 20){
             break;
@@ -184,7 +184,7 @@ for (let i = 1; i < 101; i++) {
             console.log('hour:' + hour + ' min:' + minute +' '+'sec:' + second);
         }
     }
-}*/
+}
 
 // Task No. 26
 // Дано масив: [ 'a', 'b', 'c'] . За допомогою циклу for зібрати всі букви в слово.
