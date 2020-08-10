@@ -265,8 +265,8 @@ console.log(shiftedItem);
 // Task No. 34
 // Дан масив ['js', 'css', 'jq']. Виведіть на екран останній елемент за допомогою pop()
 
-let poppedItem = arrayShift.pop();
-console.log(poppedItem);
+//let poppedItem = arrayShift.pop();
+//console.log(poppedItem);
 
 // Task No. 35
 // Дан масив [1, 2, 3, 4, 5]. За допомогою методу/функції slice перетворіть масив в [4, 5]
