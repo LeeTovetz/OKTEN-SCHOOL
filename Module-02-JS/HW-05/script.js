@@ -107,12 +107,12 @@ document.writeln (j1 + "<br/>");
 k1 = 45487548;
 console.log(k1);
 document.writeln (k1 + "<br/>");
-//alert(k1);
+alert(k1);
 
 l1 = 'Super';
 console.log(l1);
 document.writeln (l1 + "<br/>");
-//alert(l1);
+alert(l1);
 
 m1 = 545105.54540;
 console.log(m1);
