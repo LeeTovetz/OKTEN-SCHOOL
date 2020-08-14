@@ -1,562 +1,335 @@
-// Task No. 01-04
+// Task No. 01
+// создать массив с 20 числами
 
-let numbers = [89,45,1943,5,548];
+let numbers = [5656,1212,3645,5689,7778,6363,7070,3001,6736,412,143,2527,5263,5015,6996,8,75,10,7575,29];
 console.log(numbers);
 
-let str = ['oleg', 'j', 'ten', 'mesh', 'asha'];
-console.log(str);
+// Task No. 02
+// при помощи метода sort и колбека  отсортировать массив
 
-let mas = [20,30,50, 'summer', 'spring', 'year', 10>5, 12!=='21', 5=='5'];
-console.log(mas);
+let sortNumbers=numbers.sort((a, b) => a-b);
+console.log(sortNumbers);
+
+// Task No. 03
+// при помощи filter получить числа кратные 3
+
+console.log(numbers.filter(value => value % 3 === 0));
+
+// Task No. 04
+// при помощи filter получить числа кратные 10 
+
+let multiple10 = numbers.filter(value => !(value%10));
+console.log(multiple10);
 
 // Task No. 05
+// перебрать (проитерировать) массив при помощи foreach()
 
-let list = [];
-list[0] = 'ten';
-list[1] = 454554;
-list[2] = 7679494;
-console.log(list);
+numbers.forEach(value => console.log(value));
+
+// Task No. 06
+// перебрать массив при помощи map() и получить новый массив в котором все значения будут в 3 раза больше
+
+let multi3 = numbers.map(value => value*3);
+console.log(multi3);
 
 // Task No. 07
-// За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом всередині
+// создать массив со словами на 15-20 элементов
 
-for (let i = 0; i < 10; i++) {
-    document.writeln(`<div><h1>hi</h1></div>`);
-}
+let arrayStr=['If','it','takes','a','long','time','to','learn',
+'something','I','like','it','very','much','learn','javascript','course','it','too']
+console.log(arrayStr);
 
 // Task No. 08
-//За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом і індексом всередині
+// отсортировать его по алфавиту в восходящем порядке
 
-for (let i = 0; i < 10; i++) {
-    document.writeln(`<div><h1>wooow ${i}</h1></div>`);
-}
+console.log(arrayStr.map(value => value.toUpperCase()).sort());
+
+let strSort = arrayStr.sort((a, b) => (a.toLowerCase()<b.toLowerCase())?-1:1);
+console.log(strSort);
+
 
 // Task No. 09
-// За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом всередині.
+// отсортировать его по алфавиту  в нисходящем порядке.
 
-let counter = 0;
-while (counter < 20) {
-    document.writeln (`<div><h1>w ${counter}</h1></div>`);
-    counter++;
-}
+console.log(arrayStr.map(value => value.toUpperCase()).reverse());
+
+let strSortReverse = arrayStr.sort((a, b) => (a.toLowerCase()>b.toLowerCase())?-1:1)
+console.log(strSortReverse);
+
 
 // Task No. 10
-// За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом і індексом всередині.
-let counter = 1;
-while (counter <= 20) {
-    document.writeln (`<div><h1>milk ${counter}</h1></div>`);
-    counter++;
-}
+// отфильтровать слова длиной менее 4х символов
+
+console.log(arrayStr.filter(value => value.length <= 4));
+
 
 // Task No. 11
-// Створити масив з 10 числових елементів. Вивести в консоль всі його елементи в циклі.
+// перебрать массив при помощи map() и получить новый
+// массив в котором все значения будут со знаком "!" в конце
 
-let numbers01 = [89,45,19,45,54,89,45,19,45,54];
-console.log(numbers01);
+console.log(arrayStr.map(value => value + '!'));
 
 // Task No. 12
-// Створити масив з 10 строкрових елементів. Вивести в консоль всі його елементи в циклі.
-//let strList01 = ['a','45','19','45','b','89','45','c','45','d'];
-//console.log(strList01);
+// Все робити через функції масивів (foreach, map ...тд)
+// Дан масив :
+let users = [
+    {name: 'vasya', age: 31, status: false},
+    {name: 'petya', age: 30, status: true},
+    {name: 'kolya', age: 29, status: true},
+    {name: 'olya', age: 28, status: false},
+    {name: 'max', age: 30, status: true},
+    {name: 'anya', age: 31, status: false},
+    {name: 'oleg', age: 28, status: false},
+    {name: 'andrey', age: 29, status: true},
+    {name: 'masha', age: 30, status: true},
+    {name: 'olya', age: 31, status: false},
+    {name: 'max', age: 31, status: true}
+    ];
+// відсортувати його за  віком (зростання , а потім окремо спадання)
+
+console.log(users.sort(((a, b) => a.age - b.age)));
+console.log(users.sort(((a, b) => b.age - a.age)));
 
 // Task No. 13
-// Створити масив з 10 елементів будь-якого типу. Вивести в консоль всі його елементи в циклі.
-let arr01 = ['a','winter', 'autumn','89','45','c','45', 10>5,,'d'];
-console.log(arr01);
+// відсортувати його за кількістю знаків в імені  (зростання , а потім окремо спадання)
 
-// Task No. 14, 15, 16
-// Створити масив з 10 елементів числового, стірчкового і булевого типу. За допомогою if та typeof вивести тільки булеві елементи
+console.log(users.sort(((a, b) => a.name.length - b.name.length)));
+console.log(users.sort(((a, b) => b.name.length - a.name.length)));
 
-let mass05 = ['19','45','b','89','summer', 'winter', 5514, 963258, 10>5, 5>6];
+// Task No. 14 
+// пройтись по ньому та додати кожному юзеру поле id - яке характеризує унікальний
+// індентифікатор (По якому принципу його створювати - ваше рішення), та зберегти це в новий масив
+// (первинний масив залишиться без змін)
 
-for (const i of mass05) {
-    if (typeof i === 'boolean') {
-        console.log(i);
-    }
-}
+let usersWithId = users.map((value, index) => {value.id=index+1; return value});
+console.log(usersWithId);
+console.log(users);
 
-for (const j of mass05) {
-    if (typeof j === 'string') {
-        console.log(j);
+// Task No. 15
+// відсортувати його за індентифікатором
+console.log(usersWithId.sort(((a, b) => a.id - b.id)));
 
-    }
-}
+// Task No. 16
+// наисать функцию калькулятора с 2мя числами и колбеком
 
-for (const k of mass05) {
-    if (typeof k === 'number') {
-        console.log(k);
+let calculator2Nums=(a,b,callback) =>callback(a, b);
 
-    }
-}
+console.log(calculator2Nums(45, 3, (a, b) => a + b * 2));
 
 // Task No. 17
-// Створити порожній масив. Наповнити його 10 елементами (різними за типами) через звернення до конкретних індексів. Вивести в консоль всі його елементи в циклі.
+// наисать функцию калькулятора с 3мя числами и колбеком
 
-let list7 = [];
-list7[0] = 41;
-list7[1] = 'summer';
-list7[2] = 'winter';
-list7[3] = 35;
-list7[4] = 82;
-list7[5] = 567<87;
-list7[6] = 'hi';
-list7[7] = 145051>9900100;
-list7[8] = 10521010<145513;
-list7[9] = 5445>787887;
+let calculator3Nums=(a,b,c,callback)=>callback(a,b,c);
 
-for (const list7Element of list7) {
-    console.log(list7Element);
-}
+console.log(calculator3Nums(5, 7, 9, (a, b, c,) => (a + b - c * 3) * b));
 
 // Task No. 18
-// Створити цикл for на 10  ітерацій з кроком 1. Вивести поточний номер кроку через console.log та document.write
+// Відфільтрувати масив за наступними крітеріями :
+let cars = [
+    {producer:"subaru",model: "wrx",year: 2010, color:"blue",type: "sedan",engine: "ej204x",volume: 2,power: 400},
+    {producer:"subaru",model: "legacy",year: 2007, color:"silver",type: "sedan",engine: "ez30",volume: 3,power: 250},
+    {producer:"subaru",model: "tribeca",year: 2011, color:"white",type: "jeep",engine: "ej20",volume: 2,power: 300},
+    {producer:"subaru",model: "leone",year: 1998, color:"yellow",type: "sedan",engine: "ez20x",volume: 2,power: 140},
+    {producer:"subaru",model: "impreza",year: 2014, color:"red",type: "sedan",engine: "ej204x",volume: 2,power: 200},
+    {producer:"subaru",model: "outback",year: 2014, color:"red",type: "hachback",engine: "ej204",volume: 2,power: 165},
+    {producer:"bmw",model: "115",year: 2013, color:"red",type: "hachback",engine: "f15",volume: 1.5,power: 120},
+    {producer:"bmw",model: "315",year: 2010, color:"white",type: "sedan",engine: "f15",volume: 1.5, power: 120},
+    {producer:"bmw",model: "650",year: 2009, color:"black",type: "coupe",engine: "f60",volume: 6,power: 350},
+    {producer:"bmw",model: "320",year: 2012, color:"red",type: "sedan",engine: "f20",volume: 2,power: 180},
+    {producer:"mercedes",model: "e200",year: 1990, color:"silver",type: "sedan",engine: "eng200",volume: 2,power: 180},
+    {producer:"mercedes",model: "e63",year: 2017, color:"yellow",type: "sedan",engine: "amg63",volume:3,power: 400},
+    {producer:"mercedes",model: "c250",year: 2017, color:"red",type: "sedan",engine: "eng25",volume: 2.5,power: 230} ];
+//- двигун більше 3х літрів
 
-for (let i = 1; i < 11; i++) {
-    console.log(i);
-    document.writeln(i);
-    document.writeln('<br>');
-}
+let volumeMore3 = cars.filter(value => value.volume>3);
+console.log(volumeMore3);
 
-// Task No. 19
-// Створити цикл for на 100 ітерацій з кроком 1. Вивести поточний номер кроку через console.log та document.write
+//- двигун = 2л
 
-for (let i = 1; i < 101; i++) {
-    console.log(i);
-    document.writeln(i);
-    document.writeln('<br>');
-}
+let volume2=cars.filter(value => value.volume===2);
+console.log(volume2);
 
-// Task No. 20
-// Створити цикл for на 100 ітерацій з кроком 2. Вивести поточний номер кроку через console.log та document.write
+//- виробник мерс
 
-for (let i = 1; i < 101; i+=2) {
-    console.log(i);
-    document.writeln(i);
-    document.writeln('<br>');
-}
+let merc=cars.filter(value => value.producer==="mercedes")
+console.log(merc);
 
-// Task No. 21
-// Створити цикл for на 100 ітерацій. Вивести тільки парні кроки. через console.log + document.write
+//- двигун більше 3х літрів + виробник мерседес
 
-for (let i = 1; i < 101; i++) {
-    if (i%2 === 0) {
-        console.log(i);
-        document.writeln(i);
-        document.writeln('<br>');
+let filter = cars.filter(value => value.volume>3&&value.producer==='mercedes');
+console.log(filter);
 
+//- двигун більше 3х літрів + виробник субару
+
+let filter1 = cars.filter(value => value.engine>3&&value.producer==='subaru');
+console.log(filter1);
+
+//- сили більше ніж 300
+
+let filter2 = cars.filter(value => value.power>300);
+console.log(filter2);
+
+//- сили більше ніж 300 + виробник субару
+
+let filter3 = cars.filter(value => value.power>300&&value.producer==='subaru');
+console.log(filter3);
+
+//- мотор серіі ej
+
+let filter4 = cars.filter(value => value.engine.startsWith('ej'));
+console.log(filter4);
+
+//- сили більше ніж 300 + виробник субару + мотор серіі ej
+
+let filter5 = cars.filter(value => value.power>300&&value.producer==='subaru'&&value.engine.startsWith('ej'));
+console.log(filter5);
+
+//- двигун меньше 3х літрів + виробник мерседес
+
+let filter6 = cars.filter(value => value.volume<3&&value.producer==='mercedes');
+console.log(filter6);
+
+//- двигун більше 2л + сили більше 250
+
+let filter7 = cars.filter(value => value.volume>2&&value.power>250);
+console.log(filter7);
+
+//- сили більше 250  + виробник бмв
+
+let filter8 = cars.filter(value => value.power>250&&value.producer==='bmw');
+console.log(filter8);
+
+// Дан масив :
+
+let usersWithAddress = [
+    {id: 1, name: 'vasya', age: 31, status: false, address: {city: 'Lviv', street: 'Shevchenko', number: 16}},
+    {id: 2, name: 'petya', age: 30, status: true, address: {city: 'Lviv', street: 'Shevchenko', number: 1}},
+    {id: 3, name: 'kolya', age: 29, status: true, address: {city: 'Lviv', street: 'Shevchenko', number: 121}},
+    {id: 4, name: 'olya', age: 28, status: false, address: {city: 'Lviv', street: 'Shevchenko', number: 90}},
+    {id: 5, name: 'max', age: 30, status: true, address: {city: 'Lviv', street: 'Shevchenko', number: 115}},
+    {id: 6, name: 'anya', age: 31, status: false, address: {city: 'Lviv', street: 'Shevchenko', number: 2}},
+    {id: 7, name: 'oleg', age: 28, status: false, address: {city: 'Lviv', street: 'Shevchenko', number: 22}},
+    {id: 8, name: 'andrey', age: 29, status: true, address: {city: 'Lviv', street: 'Shevchenko', number: 43}},
+    {id: 9, name: 'masha', age: 30, status: true, address: {city: 'Lviv', street: 'Shevchenko', number: 12}},
+    {id: 10, name: 'olya', age: 31, status: false, address: {city: 'Lviv', street: 'Shevchenko', number: 16}},
+    {id: 11, name: 'max', age: 31, status: true, address: {city: 'Lviv', street: 'Shevchenko', number: 121}}
+    ];
+// отсортировать его по id пользователей
+
+ let sort1 = usersWithAddress.sort((a, b) => a.id-b.id);
+console.log(sort1);
+
+//  отсортировать его по id пользователей в обратном опрядке
+
+let sort2 = usersWithAddress.sort((a, b) => b.id-a.id);
+console.log(sort2);
+
+// отсортировать его по возрасту пользователей
+
+let sort3 = usersWithAddress.sort((a, b) => a.age-b.age);
+console.log(sort3);
+
+// отсортировать его по возрасту пользователей в обратном порядке
+
+let sort4 = usersWithAddress.sort((a, b) => b.age-a.age);
+console.log(sort4);
+
+// отсортировать его по имени пользователей
+
+let sort5=usersWithAddress.sort((a, b) => (a.name.toLowerCase()<b.name.toLowerCase())?-1:1)
+console.log(sort5);
+
+// отсортировать его по имени пользователей в обратном порядке
+
+let sort6=usersWithAddress.sort((a, b) =>(b.name.toLowerCase()<a.name.toLowerCase())?-1:1)
+console.log(sort6);
+
+// отсортировать его по названию улицы  в алфавитном порядке
+
+let sort7=usersWithAddress.sort((a, b) =>  (a.address.street.toLowerCase()<b.address.street.toLowerCase())?-1:1);
+console.log(sort7);
+
+// отсортировать его по номеру дома по возрастанию
+
+let sort8 = usersWithAddress.sort((a, b) => a.address.number-b.address.number);
+console.log(sort8);
+
+// отфильтровать (оставить) тех кто младше 30
+
+let filter9 = usersWithAddress.filter(value => value.age<30);
+console.log(filter9);
+
+// отфильтровать (оставить) тех у кого отрицательный статус
+
+let filter10 = usersWithAddress.filter(value => value.status===false);
+console.log(filter10);
+
+// отфильтровать (оставить) тех у кого отрицательный статус и младше 30 лет
+
+let filter11 = usersWithAddress.filter(value => value.status===false&&value.age<30);
+console.log(filter11);
+
+//-- отфильтровать (оставить) тех у кого номер дома четный
+
+let filter12 = usersWithAddress.filter(value => value.address.number%2===0);
+console.log(filter12);
+
+
+//Створити обєкт автомобіля з полями:
+// Марка автомобля, потужність двигуна, власник, ціна, рік випуску.
+// Власник автомобіля теж має бути обєкт, у якого є поля
+//Для початку вкладіть всі наші створені автомобілі в масив cars.
+cars2=[
+    {producer:'bmw',power:200,price:5000,yearOfProduction:2010,owner:{name:'Vasyl',age:25,drivingExp:5}},
+    {producer:'mercedes',power:176,price:6250,yearOfProduction:2011,owner:{name:'Volodymyr',age:32,drivingExp:1}},
+    {producer:'audi',power:180,price:7200,yearOfProduction:2003,owner:{name:'Olexandr',age:22,drivingExp:2}},
+    {producer:'opel',power:153,price:4500,yearOfProduction:2005,owner:{name:'Petro',age:34,drivingExp:3}},
+    {producer:'toyota',power:185,price:9240,yearOfProduction:2012,owner:{name:'Maria',age:23,drivingExp:4}},
+    {producer:'renault',power:146,price:4680,yearOfProduction:2007,owner:{name:'Dmytro',age:19,drivingExp:1}},
+    {producer:'cherry',power:150,price:3100,yearOfProduction:2004,owner:{name:'Olesya',age:39,drivingExp:12}},
+    {producer:'ford',power:166,price:4000,yearOfProduction:2013,owner:{name:'Iryna',age:40,drivingExp:4}},
+    {producer:'mazda',power:183,price:6750,yearOfProduction:2015,owner:{name:'Ivan',age:36,drivingExp:11}},
+    {producer:'nissan',power:190,price:3450,yearOfProduction:2008,owner:{name:'Ruslan',age:29,drivingExp:9}},
+    {producer:'honda',power:174,price:2200,yearOfProduction:2009,owner:{name:'Oksana',age:27,drivingExp:5}},
+]
+//Далі необхідно брати кожну другу машинку (цикл з кроком в 2), та робити їй підвищення потужності двигуна на 10% та ціну на 5%
+
+let carsAfterUpdate=cars2.map((value, index) =>{
+    if(index%2===0)
+    {
+       value.power*=1.1;
+        value.price*=1.05;
+        console.log(value.producer +" is updated");
+        return value;
     }
+    return value;
+} )
 
-}
+//Після того зробити перевірку досвіду ВСІХ наших водіїв. Якщо досвід водія менший за 5 років, але його вік більший за 25, то необідно відправити його на курси підвищення кваліфікації, що збільшить йому досвід на 1 рік.
 
-// Task No. 23
-// Створити цикл for на 100 ітерацій. Вивести тільки парні кроки. через console.log + document.write
+carsAfterUpdate.forEach((value) =>{if (value.owner.drivingExp<5&&value.owner.age>25){console.log(value.owner.name+" is going for cources"); value.owner.drivingExp+=1;}});
 
-for (let i = 1; i < 101; i++) {
-    if (i%2 !== 0) {
-        console.log(i);
-        document.writeln(i);
-        document.writeln('<br>');
+//Також спробуйте порахувати суму, яку потрібно потратити для покупки всіх цих авто в циклі
 
-    }
+let price=carsAfterUpdate.reduce((accum, currentValue) => accum+currentValue.price,0);
+console.log(price);
 
-}
+//Задача: дан отсортированный по возрастанию массив целых чисел. Необходимо вернуть наименьший и наибольший индекс заданного элемента.
+// Входные данные: arr — массив целых чисел значения которых по модулю не больше 10. Размер массива не более 10 элементов.
+// Вывод: наибольший и наименьший индекс в массиве заданного элемента. Если такого элемента нет в массиве, выведите -1.
 
+let Arr = [1, 2, 3, 4, 4, 4, 4, 7, 7, 9, 14];
 
-// Task No. 24
-// Відтворити роботу годинника, відрахувавши 2 хвилини (2 цикли! 1й - хвилини, 2й - секунди)
-
-for (let minute = 0; minute < 2; minute++) {
-    for (let sec = 0; sec < 60; sec++) {
-        console.log('min: ' + minute +' '+'sec: ' + sec);
-
-    }
-}
-
-// Task No. 25
-// Відтворити роботу годинника, відрахувавши  2 години 20 хвилини (3 цикли! 1й - години, 2й - хвилини, 3й - секунди)
-
-for (let hour = 0; hour < 3; hour++) {
-    for (let minute = 0; minute < 60; minute++) {
-        if (hour === 2 && minute === 20){
-            break;
+function minMaxIndex(arr) {
+    let key=+prompt("Enter key",1);
+    let index=-1;
+    let lastIndex=-1;
+    for (let i = 0; i < arr.length; i++) {
+        if(key===arr[i]) lastIndex=i;
+        if(key===arr[i]&&index===-1) index=i;
         }
-        for (let second = 0; second < 60; second++) {
-            console.log('hour:' + hour + ' min:' + minute +' '+'sec:' + second);
-        }
-    }
+    return 'MinIndex = '+ index+', MaxIndex = '+lastIndex;
 }
-
-// Task No. 26
-// Дано масив: [ 'a', 'b', 'c'] . За допомогою циклу for зібрати всі букви в слово.
-
-let arr11 = [ 'a', 'b', 'c'];
-let word11 = '';
-for (let i = 0; i < arr11.length; i++) {
-    word11+=arr11[i];
-}
-console.log(word11);
-
-
-// Task No. 27
-// Дано масив: [ 'a', 'b', 'c'] . За допомогою циклу while зібрати всі букви в слово.
-
-let word22 = '';
-let i = 0;
-while(i<arr11.length){
-    word22+=arr11[i];
-    i++;
-}
-console.log(word22);
-
-// Task No. 28
-// Дано масив: [ 'a', 'b', 'c'] . За допомогою циклу for of зібрати всі букви в слово.
-
-let word33 = '';
-for (const element of arr11) {
-    word33+=element;
-}
-console.log(word33);
-
-
-// Task No. 29
-// Дан масив ['a', 'b', 'c']. Додайте йому в кінець елементи 1, 2, 3 за допомогою циклу.
-
-let arrayNew = [];
-for (let j = 1; j<=3; j++) {
-    arrayNew=arr11;
-    arrayNew.push(j);
-}
-console.log(arrayNew);
-
-// Task No. 30
-// Дан масив [1, 2, 3]. Зробіть з нього новий масив [3, 2, 1]
-
-let numberArray = [1, 2, 3];
-let reverseNumberArray = [];
-for (let j = numberArray.length - 1; j >= 0; j--) {
-    const item = numberArray[j];
-    reverseNumberArray.push(item);
-}
-console.log(reverseNumberArray);
-
-// Task No. 31
-// Дан масив [1, 2, 3]. Додайте йому в кінець елементи 4, 5, 6.
-
-let numberArray1 = [1, 2, 3];
-for (let j = 4; j <=6; j++) {
-    numberArray1.push(j);
-}
-console.log(numberArray1);
-
-// Task No. 32
-// Дан масив [1, 2, 3]. Додайте йому в початок елементи 4, 5, 6
-
-let numberArray2 = [1, 2, 3];
-numberArray2.unshift(4,5,6);
-console.log(numberArray2);
-
-// Task No. 33
-// Дан масив ['js', 'css', 'jq']. Виведіть на екран перший елемент за допомогою shift()
-
-let arrayShift = ['js', 'css', 'jq'];
-let shiftedItem = arrayShift.shift();
-console.log(shiftedItem);
-
-// Task No. 34
-// Дан масив ['js', 'css', 'jq']. Виведіть на екран останній елемент за допомогою pop()
-
-//let poppedItem = arrayShift.pop();
-//console.log(poppedItem);
-
-// Task No. 35
-// Дан масив [1, 2, 3, 4, 5]. За допомогою методу/функції slice перетворіть масив в [4, 5]
-
-let arrayOfNumbers = [1, 2, 3, 4, 5];
-console.log(arrayOfNumbers.slice(3, 5));
-
-// Task No. 36
-// Дан масив [1, 2, 3, 4, 5]. За допомогою методу/функції slice перетворіть масив в [1,2].
-
-let slicedArray =  arrayOfNumbers.slice(0,2);
-console.log(slicedArray);
-
-// Task No. 37
-// Дан масив [1, 2, 3, 4, 5]. За допомогою методу/функції splice перетворіть масив в [1, 4, 5]
-
-let arrayOfNumbers1 = [1, 2, 3, 4, 5];
-arrayOfNumbers1.splice(1, 2);
-console.log(arrayOfNumbers1);
-
-// Task No. 38
-// Дан масив [1, 2, 3, 4, 5]. За допомогою методу/функції splice зробіть з нього масив [1, 2, 3, 'a', 'b', 'c', 4, 5].
-
-let arrayOfNumbers2 = [1, 2, 3, 4, 5];
-arrayOfNumbers2.splice(2, 0, 'a', 'b', 'c');
-console.log(arrayOfNumbers2);
-
-// Task No. 39
-// Дан масив [1, 2, 3, 4, 5]. За допомогою методу/функції splice зробіть з нього масив [1, 'a', 'b', 2, 3, 4, 'c', 5, 'e'].
-
-let arrayOfNumbers3 = [1, 2, 3, 4, 5];
-arrayOfNumbers3.splice(1,0,'a', 'b');
-arrayOfNumbers3.splice(5,0,'c');
-arrayOfNumbers3.splice(8,0,'e');
-console.log(arrayOfNumbers3);
-
-// Task No. 40
-// Взяти масив з 10 чисел або створити його. Вивести в консоль тільки ті елементи, значення яких є парними.
-
-let numbers10 = [1,2,3,4,5,6,7,8,9,10];
-for (const number of numbers10) {
-    if (number % 2 === 0){
-        console.log(number);
-    }
-}
-
-// Task No. 41
-// Взяти масив з 10 чисел або створити його. Створити 2й порожній масив. За допомогою будь-якого циклу та push () скопіювати значення одного масиву в інший
-
-let numbers11 = [];
-for (const number of numbers10) {
-    numbers11.push(number);
-}
-    console.log(numbers11)
-
-// Task No. 42
-// Взяти масив з 10 чисел або створити його. Створити 2й порожній масив. За допомогою будь-якого циклу скопіювати значення одного масиву в інший.
-
-let numbers12 = [];
-for (let i = 0; i < numbers10.length; i++) {
-    numbers12[i] = numbers10[i];
-}
-console.log(numbers12);
-
-// Task No. 43
-// зробити масив з 10 чисел [2,17,13,6,22,31,45,66,100,-18]та:
-
-let numbersArr = [2,17,13,6,22,31,45,66,100,-18];
-
-// Task No. 44
-// 1. перебрати його циклом while
-
-let x = 0;
-while( x < numbersArr.length ){
-    console.log ( numbersArr );
-    x++;
-}
-
-// Task No. 45
-// 2. перебрати його циклом for
-
-for (const number of numbersArr) {
-    console.log(numbersArr)
-}
-
-// Task No. 46
-// 3. перебрати циклом while та вивести  числа тільки з непарним індексом
-
-let z = 0;
-while(z<numbersArr.length){
-    if (z%2!==0){
-        const number = numbersArr[z];
-        console.log(number);
-    }
-    z++;
-}
-
-// Task No. 47
-// 4. перебрати циклом for та вивести  числа тільки з непарним індексом
-
-for (let i = 0; i < numbersArr.length; i++) {
-    const number = numbersArr[i];
-    if (i%2!==0){
-        console.log(number);
-    }
-
-}
-
-// Task No. 48
-// 5. перебрати циклом while та вивести  числа тільки парні  значення
-
-let q = 0;
-while(q<numbersArr.length){
-    const number = numbersArr[q];
-    if (number%2===0){
-        console.log(number);
-    }
-    q++;
-}
-
-// Task No. 49
-// 6. перебрати циклом for та вивести  числа тільки парні  значення
-
-for (let j = 0; j < numbersArr.length; j++) {
-    const number = numbersArr[j];
-    if (number%2===0){
-        console.log(number);
-    }
-}
-
-// Task No. 50
-// 7. замінити кожне число кратне 3 на слово "okten"
-
-for (let j = 0; j < numbersArr.length; j++) {
-        if (numbersArr[j]%3===0){
-        numbersArr[j] = 'okten';
-    }
-    console.log(numbersArr)
-}
-
-// Task No. 51
-// 8. вивести масив в зворотньому порядку.
-
-for (let j = numbersArr.length - 1; j >= 0; j--) {
-    console.log(numbersArr[j]);
-}
-
-// Task No. 52
-// 9. всі попередні завдання (окрім 8), але в зворотньому циклі (с заду на перед)
-
-for (let i=numbersArr.length-1; i >=0; i--) {
-    console.log(numbersArr[i]);
-
-}
-
-let jl = numbersArr.length-1;
-while (jl>=0) {
-    console.log(numbersArr[jl]);
-    jl--
-}
-
-let k = numbersArr.length-1;
-while (k>=0) {
-    if (numbersArr[k]%2 !==0) {
-        console.log(numbersArr[k]);
-    }
-    k--
-}
-
-// Task No. 53
-//  створити пустий масив та :
-// - заповнити його 50 парними числами за допомоги циклу.
-
-let emptyArray = [];
-for (let j = 1; j < 102; j++) {
-    if (j%2===0){
-    emptyArray.push(j);
-    }
-}
-    console.log(emptyArray);
-
-// Task No. 54  
-//заповнити його 50 непарними числами за допомоги циклу.
-let emptyArr = [];
-for (let j = 1; j < 100; j++) {
-    if (j%2!==0){
-        emptyArr.push(j);
-    }
-
-}
-console.log(emptyArr);
-
-// Task No. 55
-// используя Math.random заполнить массив из ???(сколько хотите) элементов.
-
-let emptyArray1 = [];
-for (let j = 0; j < 10; j++) {
-    emptyArray1[j]= Math.random();
-    }
-console.log(emptyArray1);
-
-// Task No. 56
-//  диапазон рандома 8 до 732. (но сначала пробуйте БЕЗ ДИАПАЗОНА!)
-
-let emptyArray2 = [];
-for (let j = 0; j < 10; j++) {
-    emptyArray2[j]=Math.floor(Math.random() * (732 - 8)) + 8;
-}
-console.log(emptyArray2);
-
-// Task No. 57
-//  2. вывести на консоль  каждый третий елемент
-
-for (let j = 2; j < emptyArray2.length; j+=3) {
-    console.log(emptyArray2[j]);
-}
-
-// Task No. 58
-//  3. вывести на консоль  каждый третий елемент
-//  но при условии что его значение является парным.
-
-for (let j = 2; j < emptyArray2.length; j+=3) {
-    if (emptyArray2[j]%2===0){
-    console.log(emptyArray2[j]);
-    }
-}
-
-// Task No. 59
-//  вывести на консоль  каждый третий елемент
-//  но при условии что он имеет парное значение и
-//  записать их в другой массив.
-
-let emptyArray3 = [];
-for (let j = 2; j < emptyArray2.length; j+=3) {
-    if (emptyArray2[j]%2===0){
-        emptyArray3.push(emptyArray2[j]);
-    }
-console.log(emptyArray3);
-}
-
-// Task No. 60
-// Вывести каждый елемент массива у которого соседний с права элемент - парный
-
-for (let j = 0; j < emptyArray2.length; j++) {
-    if (emptyArray2[j+1]%2===0){
-        console.log(emptyArray2[j]);
-    }
-}
-
-// Task No. 61
-// 5 масив з числами [100,250,50,168,120,345,188], Які характеризують вартість окремої покупки. обрахувати середній чек.
-
-let check = [100,250,50,168,120,345,188];
-    let sum = 0;
-for (let j = 0; j < check.length; j++) {
-    sum += check[j];
-
-}
-console.log(sum);
-console.log(sum/check.length);
-
-
-// Task No. 62
-// 3 створити масив з рандомними значеннями, помножити всі його елементи на 5 та перемістити їх в інший масив.
-
-let randomArray = [];
-let randomArray5 = [];
-for (let i = 0; i < 10; i++) {
-    randomArray[i]=Math.floor(Math.random() * (20 - 1)) + 1;
-}
-console.log(randomArray);
-for (let j = 0; j < randomArray.length; j++) {
-    randomArray5[j]=randomArray[j]*5;
-}
-console.log(randomArray5);
-
-// Task No. 63
-// 4 створити масив з будь якими значеннями (стрінги, числа, і тд...). пройтись по ньому, і якщо об'єкт є числом,
-//  додати його в інший масив.
-
-/*let someArray = [1, 'a', 'b', 2, 3, 4, 'c', 5, 'e'];
-let someNewArray = [];
-for (let j = 0; j < someArray.length; j++) {
-    if (typeof someArray[j]=== 'number'){
-        someNewArray.push(someArray[j]);
-    }
-}
-console.log(someNewArray);*/
-
-
-
+console.log(minMaxIndex(Arr));
 
 
