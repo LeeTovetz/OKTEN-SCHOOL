@@ -1,3 +1,5 @@
+// The task. Repeat lecture requests. 
+
 INSERT INTO doctors (age) VALUES (34);
 
 SELECT * FROM students;
