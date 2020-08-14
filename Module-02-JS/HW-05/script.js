@@ -57,7 +57,7 @@ document.writeln (m1 + "<br/>");
 a1 = 1500;
 console.log (a1);
 document.writeln (a1 + "<br/>");
-alert(a1);
+//alert(a1);
 
 b1 = 'Wow';
 console.log(b1);
