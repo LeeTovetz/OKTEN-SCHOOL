@@ -62,37 +62,37 @@ document.writeln (a1 + "<br/>");
 b1 = 'Wow';
 console.log(b1);
 document.writeln (b1 + "<br/>");
-//alert(b1);
+alert(b1);
 
 c1 = 454;
 console.log(c1);
 document.writeln (c1 + "<br/>");
-//alert(c1);
+alert(c1);
 
 d1 = 'asdfjkll';
 console.log(d1);
 document.writeln (d1 + "<br/>");
-//alert(d1);
+alert(d1);
 
 e1 = d1;
 console.log(e1);
 document.writeln (e1 + "<br/>");
-//alert(e1);
+alert(e1);
 
 f1 = 45454;
 console.log(f1);
 document.writeln (f1 + "<br/>");
-//alert(f1);
+alert(f1);
 
 g1 = 5;
 console.log(g1);
 document.writeln  (g1 + "<br/>");
-//alert(g1);
+alert(g1);
 
 h1 = 5485;
 console.log(h1);
 document.writeln (h1 + "<br/>");
-//alert(h1);
+alert(h1);
 
 i1 = 4545454545;
 console.log(i1);
@@ -107,12 +107,12 @@ document.writeln (j1 + "<br/>");
 k1 = 45487548;
 console.log(k1);
 document.writeln (k1 + "<br/>");
-//alert(k1);
+alert(k1);
 
 l1 = 'Super';
 console.log(l1);
 document.writeln (l1 + "<br/>");
-//alert(l1);
+alert(l1);
 
 m1 = 545105.54540;
 console.log(m1);
@@ -136,11 +136,11 @@ document.writeln(st1, ' ', st2, ' ', st3);
 
 // Task No. 04
 
-//let username = prompt('Введите Имя');
-//let surname = prompt('Введите фамилию');
-//let patronymic = prompt('Введите отчество');
-//console.log(username + ' ' + surname  + ' ' + patronymic);
-//document.writeln(username + ' ' + surname  + ' ' + patronymic);
+let username = prompt('Введите Имя');
+let surname = prompt('Введите фамилию');
+let patronymic = prompt('Введите отчество');
+console.log(username + ' ' + surname  + ' ' + patronymic);
+document.writeln(username + ' ' + surname  + ' ' + patronymic);
 
 // Task No. 05
 

@@ -1,52 +1,52 @@
 // Task No. 01-04
 
-/*let numbers = [89,45,1943,5,548];
+let numbers = [89,45,1943,5,548];
 console.log(numbers);
 
 let str = ['oleg', 'j', 'ten', 'mesh', 'asha'];
 console.log(str);
 
 let mas = [20,30,50, 'summer', 'spring', 'year', 10>5, 12!=='21', 5=='5'];
-console.log(mas);*/
+console.log(mas);
 
 // Task No. 05
 
-/*let list = [];
+let list = [];
 list[0] = 'ten';
 list[1] = 454554;
 list[2] = 7679494;
-console.log(list);*/
+console.log(list);
 
 // Task No. 07
 // За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом всередині
 
-/*for (let i = 0; i < 10; i++) {
+for (let i = 0; i < 10; i++) {
     document.writeln(`<div><h1>hi</h1></div>`);
-}*/
+}
 
 // Task No. 08
 //За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом і індексом всередині
 
-/*/for (let i = 0; i < 10; i++) {
+for (let i = 0; i < 10; i++) {
     document.writeln(`<div><h1>wooow ${i}</h1></div>`);
-}*/
+}
 
 // Task No. 09
 // За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом всередині.
 
-/*let counter = 0;
+let counter = 0;
 while (counter < 20) {
     document.writeln (`<div><h1>w ${counter}</h1></div>`);
     counter++;
-}*/
+}
 
 // Task No. 10
 // За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом і індексом всередині.
-/*let counter = 1;
+let counter = 1;
 while (counter <= 20) {
     document.writeln (`<div><h1>milk ${counter}</h1></div>`);
     counter++;
-}*/
+}
 
 // Task No. 11
 // Створити масив з 10 числових елементів. Вивести в консоль всі його елементи в циклі.
@@ -56,8 +56,8 @@ console.log(numbers01);
 
 // Task No. 12
 // Створити масив з 10 строкрових елементів. Вивести в консоль всі його елементи в циклі.
-let strList01 = ['a','45','19','45','b','89','45','c','45','d'];
-console.log(strList01);
+//let strList01 = ['a','45','19','45','b','89','45','c','45','d'];
+//console.log(strList01);
 
 // Task No. 13
 // Створити масив з 10 елементів будь-якого типу. Вивести в консоль всі його елементи в циклі.
@@ -111,34 +111,34 @@ for (const list7Element of list7) {
 // Task No. 18
 // Створити цикл for на 10  ітерацій з кроком 1. Вивести поточний номер кроку через console.log та document.write
 
-/*for (let i = 1; i < 11; i++) {
+for (let i = 1; i < 11; i++) {
     console.log(i);
     document.writeln(i);
     document.writeln('<br>');
-}*/
+}
 
 // Task No. 19
 // Створити цикл for на 100 ітерацій з кроком 1. Вивести поточний номер кроку через console.log та document.write
 
-/*for (let i = 1; i < 101; i++) {
+for (let i = 1; i < 101; i++) {
     console.log(i);
     document.writeln(i);
     document.writeln('<br>');
-}*/
+}
 
 // Task No. 20
 // Створити цикл for на 100 ітерацій з кроком 2. Вивести поточний номер кроку через console.log та document.write
 
-/*for (let i = 1; i < 101; i+=2) {
+for (let i = 1; i < 101; i+=2) {
     console.log(i);
     document.writeln(i);
     document.writeln('<br>');
-}*/
+}
 
 // Task No. 21
 // Створити цикл for на 100 ітерацій. Вивести тільки парні кроки. через console.log + document.write
 
-/*for (let i = 1; i < 101; i++) {
+for (let i = 1; i < 101; i++) {
     if (i%2 === 0) {
         console.log(i);
         document.writeln(i);
@@ -146,12 +146,12 @@ for (const list7Element of list7) {
 
     }
 
-}*/
+}
 
 // Task No. 23
 // Створити цикл for на 100 ітерацій. Вивести тільки парні кроки. через console.log + document.write
 
-/*for (let i = 1; i < 101; i++) {
+for (let i = 1; i < 101; i++) {
     if (i%2 !== 0) {
         console.log(i);
         document.writeln(i);
@@ -159,23 +159,23 @@ for (const list7Element of list7) {
 
     }
 
-}*/
+}
 
 
 // Task No. 24
 // Відтворити роботу годинника, відрахувавши 2 хвилини (2 цикли! 1й - хвилини, 2й - секунди)
 
-/*for (let minute = 0; minute < 2; minute++) {
+for (let minute = 0; minute < 2; minute++) {
     for (let sec = 0; sec < 60; sec++) {
         console.log('min: ' + minute +' '+'sec: ' + sec);
 
     }
-}*/
+}
 
 // Task No. 25
 // Відтворити роботу годинника, відрахувавши  2 години 20 хвилини (3 цикли! 1й - години, 2й - хвилини, 3й - секунди)
 
-/*for (let hour = 0; hour < 3; hour++) {
+for (let hour = 0; hour < 3; hour++) {
     for (let minute = 0; minute < 60; minute++) {
         if (hour === 2 && minute === 20){
             break;
@@ -184,7 +184,7 @@ for (const list7Element of list7) {
             console.log('hour:' + hour + ' min:' + minute +' '+'sec:' + second);
         }
     }
-}*/
+}
 
 // Task No. 26
 // Дано масив: [ 'a', 'b', 'c'] . За допомогою циклу for зібрати всі букви в слово.
@@ -265,8 +265,8 @@ console.log(shiftedItem);
 // Task No. 34
 // Дан масив ['js', 'css', 'jq']. Виведіть на екран останній елемент за допомогою pop()
 
-let poppedItem = arrayShift.pop();
-console.log(poppedItem);
+//let poppedItem = arrayShift.pop();
+//console.log(poppedItem);
 
 // Task No. 35
 // Дан масив [1, 2, 3, 4, 5]. За допомогою методу/функції slice перетворіть масив в [4, 5]
@@ -448,8 +448,8 @@ for (let j = 1; j < 102; j++) {
 }
     console.log(emptyArray);
 
-  // Task No. 54  
-// - заповнити його 50 непарними числами за допомоги циклу.
+// Task No. 54  
+//заповнити його 50 непарними числами за допомоги циклу.
 let emptyArr = [];
 for (let j = 1; j < 100; j++) {
     if (j%2!==0){
@@ -460,7 +460,7 @@ for (let j = 1; j < 100; j++) {
 console.log(emptyArr);
 
 // Task No. 55
-// 3. используя Math.random заполнить массив из ???(сколько хотите) элементов.
+// используя Math.random заполнить массив из ???(сколько хотите) элементов.
 
 let emptyArray1 = [];
 for (let j = 0; j < 10; j++) {
@@ -495,7 +495,7 @@ for (let j = 2; j < emptyArray2.length; j+=3) {
 }
 
 // Task No. 59
-//  4. вывести на консоль  каждый третий елемент
+//  вывести на консоль  каждый третий елемент
 //  но при условии что он имеет парное значение и
 //  записать их в другой массив.
 
@@ -508,7 +508,7 @@ console.log(emptyArray3);
 }
 
 // Task No. 60
-//  5. Вывести каждый елемент массива у которого соседний с права элемент - парный
+// Вывести каждый елемент массива у которого соседний с права элемент - парный
 
 for (let j = 0; j < emptyArray2.length; j++) {
     if (emptyArray2[j+1]%2===0){
@@ -517,7 +517,7 @@ for (let j = 0; j < emptyArray2.length; j++) {
 }
 
 // Task No. 61
-//   5 масив з числами [100,250,50,168,120,345,188], Які характеризують вартість окремої покупки. обрахувати середній чек.
+// 5 масив з числами [100,250,50,168,120,345,188], Які характеризують вартість окремої покупки. обрахувати середній чек.
 
 let check = [100,250,50,168,120,345,188];
     let sum = 0;
