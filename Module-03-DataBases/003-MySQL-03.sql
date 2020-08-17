@@ -142,7 +142,9 @@ select *,count(Client_idClient) AS num,Client_idClient AS id FROM applicatiON
 right JOIN client c ON applicatiON.Client_idClient = c.idClient
     GROUP BY Client_idClient ORDER BY num desc limit 1) AS t WHERE id=idClient);
 
+
 #the city of the person who scored the most credits
+
 
 SELECT City FROM(
 SELECT *,Sum(Sum) AS suma,Client_idClient AS id FROM applicatiON
