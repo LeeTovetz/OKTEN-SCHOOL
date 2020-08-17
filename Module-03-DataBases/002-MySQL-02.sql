@@ -1,3 +1,5 @@
+// The task. Repeat lecture requests. 
+
 SELECT * FROM users u
 JOIN cars c ON c.id = u.car_id
 
