@@ -7,7 +7,7 @@ Program of the course:<br><ul>
 <li>JavaScript;</li>
 <li>MySQL;</li>
 <li>MongoDB;</li>
-<li>Vue JS; </li>
+<li>Vue.JS; </li>
 <li>Angular;</li>
 <li>React;</li>
 <li>JAVA;</li>
