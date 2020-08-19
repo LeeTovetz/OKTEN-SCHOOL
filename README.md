@@ -8,8 +8,8 @@ Program of the course:<br><ul>
 <li>MySQL;</li>
 <li>MongoDB;</li>
 <li>Vue.JS; </li>
-<li>Angular;</li>
 <li>React;</li>
+<li>Angular;</li>
 <li>JAVA;</li>
 <li>Spring;</li>
 <li>JPA. Hibernate. ORM layers;</li>
