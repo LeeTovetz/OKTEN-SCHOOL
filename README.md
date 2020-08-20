@@ -10,7 +10,7 @@ Program of the course:<br><ul>
 <li>Vue.JS; </li>
 <li>React;</li>
 <li>Angular;</li>
-<li>JAVA (core, oop);</li>
+<li>JAVA;</li>
 <li>Spring;</li>
 <li>JPA. Hibernate. ORM layers;</li>
 <li>DevOps Tools & Deploy;</li>
