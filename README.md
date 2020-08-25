@@ -19,5 +19,5 @@ Program of the course:<br><ul>
 Training time is 7 months.<br>
 At the end of the course the diploma project "Creation of an online store".<br>
 We develop it as Frontend <br> 
-as well as the Backend part of the application. <br>
+as well as the Backend part of the application. ..<br>
 
