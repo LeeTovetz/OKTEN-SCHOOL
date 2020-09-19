@@ -458,6 +458,8 @@ for (let j = 1; j < 100; j++) {
 }
 console.log(emptyArr);
 
+
+
 // Task No. 55
 // используя Math.random заполнить массив из ???(сколько хотите) элементов.
 
