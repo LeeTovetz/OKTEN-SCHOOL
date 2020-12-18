@@ -557,7 +557,3 @@ for (let j = 0; j < someArray.length; j++) {
 }
 console.log(someNewArray);*/
 
-
-
-
-
