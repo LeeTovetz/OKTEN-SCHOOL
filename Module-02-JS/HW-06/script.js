@@ -332,3 +332,4 @@ function minMaxIndex(arr) {
 }
 console.log(minMaxIndex(Arr));
 
+
