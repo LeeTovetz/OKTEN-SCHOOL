@@ -151,3 +151,4 @@ SELECT *,Sum(Sum) AS suma,Client_idClient AS id FROM applicatiON
 JOIN client c ON applicatiON.Client_idClient = c.idClient
 GROUP BY Client_idClient ORDER BY suma desc limit 1) AS t WHERE id=idClient;
 
+
