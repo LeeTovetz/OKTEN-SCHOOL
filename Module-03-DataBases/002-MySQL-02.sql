@@ -17,7 +17,6 @@ FROM ratings r
 WHERE r.rating = 5
 ORDER BY students.age
 
-
 SELECT COUNT(rating), s.name
 FROM ratings r
          JOIN students s on s.id = r.student_id
