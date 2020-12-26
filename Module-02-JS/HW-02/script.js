@@ -9,7 +9,6 @@ console.log(str);
 let mas = [20,30,50, 'summer', 'spring', 'year', 10>5, 12!=='21', 5=='5'];
 console.log(mas);
 
-
 // Task No. 05
 
 let list = [];
