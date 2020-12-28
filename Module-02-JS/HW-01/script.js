@@ -460,5 +460,3 @@ else if (colour === 'красный' && !isRoadClear) {
 else {
     console.log('делай что хочешь');
 }
-
-
