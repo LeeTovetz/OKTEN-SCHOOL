@@ -85,7 +85,6 @@ for (const j of mass05) {
 for (const k of mass05) {
     if (typeof k === 'number') {
         console.log(k);
-
     }
 }
 
