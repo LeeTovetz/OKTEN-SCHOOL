@@ -370,7 +370,6 @@ for (let i = 0; i < numbersArr.length; i++) {
     if (i%2!==0){
         console.log(number);
     }
-
 }
 
 // Task No. 48
