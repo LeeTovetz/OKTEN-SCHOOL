@@ -16,12 +16,7 @@ Program of the course:<br><ul>
 <li>DevOps Tools & Deploy;</li>
 </ul><br><br>
 
-Training time is 8 months.<br>
+Training time is 9 months.<br>
 At the end of the course the diploma project "Creation of an online store".<br>
 We develop it as Frontend <br> 
 as well as the Backend part of the application.  <br>
-
-
-
-
-
