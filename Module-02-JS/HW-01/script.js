@@ -143,11 +143,11 @@ let patronymic = prompt('Введите отчество');
 console.log(username + ' ' + surname  + ' ' + patronymic);
 document.writeln(username + ' ' + surname  + ' ' + patronymic);
 
-// Task No. 05
+Task No. 05
 
-//let person = username + ' ' + surname  + ' ' + patronymic;
-//console.log(person);
-//document.writeln(person);
+let person = username + ' ' + surname  + ' ' + patronymic;
+console.log(person);
+document.writeln(person);
 
 // Task No. 06
 
