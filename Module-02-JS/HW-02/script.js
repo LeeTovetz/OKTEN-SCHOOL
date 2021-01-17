@@ -17,8 +17,8 @@ list[1] = 454554;
 list[2] = 7679494;
 console.log(list);
 
-// Task No. 07
-// За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом всередині
+ Task No. 07
+ За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом всередині
 
 for (let i = 0; i < 10; i++) {
     document.writeln(`<div><h1>hi</h1></div>`);
@@ -526,7 +526,6 @@ for (let j = 0; j < check.length; j++) {
 }
 console.log(sum);
 console.log(sum/check.length);
-
 
 // Task No. 62
 // 3 створити масив з рандомними значеннями, помножити всі його елементи на 5 та перемістити їх в інший масив.
