@@ -244,7 +244,7 @@ let numberArray1 = [1, 2, 3];
 for (let j = 4; j <=6; j++) {
     numberArray1.push(j);
 }
-console.log(numberArray1);
+//console.log(numberArray1);
 
 // Task No. 32
 // Дан масив [1, 2, 3]. Додайте йому в початок елементи 4, 5, 6
@@ -276,7 +276,7 @@ console.log(arrayOfNumbers.slice(3, 5));
 // Дан масив [1, 2, 3, 4, 5]. За допомогою методу/функції slice перетворіть масив в [1,2].
 
 let slicedArray =  arrayOfNumbers.slice(0,2);
-console.log(slicedArray);
+//console.log(slicedArray);
 
 // Task No. 37
 // Дан масив [1, 2, 3, 4, 5]. За допомогою методу/функції splice перетворіть масив в [1, 4, 5]
@@ -299,7 +299,7 @@ let arrayOfNumbers3 = [1, 2, 3, 4, 5];
 arrayOfNumbers3.splice(1,0,'a', 'b');
 arrayOfNumbers3.splice(5,0,'c');
 arrayOfNumbers3.splice(8,0,'e');
-console.log(arrayOfNumbers3);
+//console.log(arrayOfNumbers3);
 
 // Task No. 40
 // Взяти масив з 10 чисел або створити його. Вивести в консоль тільки ті елементи, значення яких є парними.
