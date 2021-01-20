@@ -31,8 +31,8 @@ for (let i = 0; i < 10; i++) {
     document.writeln(`<div><h1>wooow ${i}</h1></div>`);
 }
 
-// Task No. 09
-// За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом всередині.
+Task No. 09
+За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом всередині.
 
 let counter = 0;
 while (counter < 20) {
@@ -530,16 +530,16 @@ console.log(sum/check.length);
 // Task No. 62
 // 3 створити масив з рандомними значеннями, помножити всі його елементи на 5 та перемістити їх в інший масив.
 
-let randomArray = [];
-let randomArray5 = [];
-for (let i = 0; i < 10; i++) {
-    randomArray[i]=Math.floor(Math.random() * (20 - 1)) + 1;
+//let randomArray = [];
+//let randomArray5 = [];
+//for (let i = 0; i < 10; i++) {
+    //randomArray[i]=Math.floor(Math.random() * (20 - 1)) + 1;
 }
-console.log(randomArray);
-for (let j = 0; j < randomArray.length; j++) {
-    randomArray5[j]=randomArray[j]*5;
+//console.log(randomArray);
+//for (let j = 0; j < randomArray.length; j++) {
+   // randomArray5[j]=randomArray[j]*5;
 }
-console.log(randomArray5);
+//console.log(randomArray5);
 
 // Task No. 63
 // 4 створити масив з будь якими значеннями (стрінги, числа, і тд...). пройтись по ньому, і якщо об'єкт є числом,
@@ -552,6 +552,6 @@ for (let j = 0; j < someArray.length; j++) {
         someNewArray.push(someArray[j]);
     }
 }
-console.log(someNewArray);*/
+//console.log(someNewArray);*/
 
 
