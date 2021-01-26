@@ -46,7 +46,6 @@ SELECT * FROM students WHERE age BETWEEN 20 AND 30;
 
 SELECT * FROM students WHERE age BETWEEN 20 AND 30 OR name LIKE 'o%';
 
-
 # AGGREGATE FUNCTIONS
 
 SELECT MAX(age) FROM students;
@@ -65,7 +64,6 @@ SELECT AVG (rating) AS avgRat,
        COUNT(rating) AS gradeCount
 FROM ratings
 WHERE student_id = 5;
-
 
 UPDATE students SET name = 'VALENTIN', gender = 'chubaka' WHERE age = 55;
 
