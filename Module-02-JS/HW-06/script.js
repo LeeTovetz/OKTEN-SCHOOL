@@ -21,8 +21,8 @@ console.log(numbers.filter(value => value % 3 === 0));
 let multiple10 = numbers.filter(value => !(value%10));
 console.log(multiple10);
 
-// Task No. 05
-// перебрать (проитерировать) массив при помощи foreach()
+Task No. 05
+перебрать (проитерировать) массив при помощи foreach()
 
 numbers.forEach(value => console.log(value));
 
@@ -102,8 +102,8 @@ console.log(users.sort(((a, b) => b.name.length - a.name.length)));
 // (первинний масив залишиться без змін)
 
 let usersWithId = users.map((value, index) => {value.id=index+1; return value});
-console.log(usersWithId);
-console.log(users);
+//console.log(usersWithId);
+//console.log(users);
 
 // Task No. 15
 // відсортувати його за індентифікатором
