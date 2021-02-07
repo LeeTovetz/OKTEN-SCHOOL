@@ -281,7 +281,7 @@ let slicedArray =  arrayOfNumbers.slice(0,2);
 
 let arrayOfNumbers1 = [1, 2, 3, 4, 5];
 arrayOfNumbers1.splice(1, 2);
-console.log(arrayOfNumbers1);
+//console.log(arrayOfNumbers1);
 
 // Task No. 38
 // Дан масив [1, 2, 3, 4, 5]. За допомогою методу/функції splice зробіть з нього масив [1, 2, 3, 'a', 'b', 'c', 4, 5].
@@ -325,7 +325,7 @@ let numbers12 = [];
 for (let i = 0; i < numbers10.length; i++) {
     numbers12[i] = numbers10[i];
 }
-console.log(numbers12);
+//console.log(numbers12);
 
 // Task No. 43
 // зробити масив з 10 чисел [2,17,13,6,22,31,45,66,100,-18]та:
@@ -388,7 +388,7 @@ while(q<numbersArr.length){
 for (let j = 0; j < numbersArr.length; j++) {
     const number = numbersArr[j];
     if (number%2===0){
-        console.log(number);
+        //console.log(number);
     }
 }
 
