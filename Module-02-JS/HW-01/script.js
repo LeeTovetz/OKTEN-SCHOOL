@@ -157,16 +157,16 @@ document.writeln(person);
 //console.log(momName + ' ' + momSurname + ' ' + momPatronymic);
 //document.writeln(momName + ' ' + momSurname + ' ' + momPatronymic);
 
-//let dadName = prompt('Введи Имя папы');
-//let dadSurname = prompt('Введи фамилию папы');
-//let dadPatronymic = prompt('Введи отчество папы');
-//console.log(dadName + ' ' + dadSurname + ' ' + dadPatronymic);
-//document.writeln(dadName + ' ' + dadSurname + ' ' + dadPatronymic);
+let dadName = prompt('Введи Имя папы');
+let dadSurname = prompt('Введи фамилию папы');
+let dadPatronymic = prompt('Введи отчество папы');
+console.log(dadName + ' ' + dadSurname + ' ' + dadPatronymic);
+document.writeln(dadName + ' ' + dadSurname + ' ' + dadPatronymic);
 
-//let personMom = momName + ' ' + momSurname + ' ' + momPatronymic;
-//let personDad = dadName + ' ' + dadSurname + ' ' + dadPatronymic;
-//console.log(personMom + ' ' + personDad);
-//document.writeln(personMom + ' ' + personDad);
+let personMom = momName + ' ' + momSurname + ' ' + momPatronymic;
+let personDad = dadName + ' ' + dadSurname + ' ' + dadPatronymic;
+console.log(personMom + ' ' + personDad);
+document.writeln(personMom + ' ' + personDad);
 
 // Task No. 07
 
@@ -180,10 +180,10 @@ document.writeln(person);
 
 // Task No. 08
 
-//let enterN1 = prompt('Введите первое число ...');
-//let enterN2 = prompt('Введите второе число ...');
-//let enterN3 = prompt('Введите третье число ...');
-//let enterN4 = prompt('Введите четвертое число ...');
+let enterN1 = prompt('Введите первое число ...');
+let enterN2 = prompt('Введите второе число ...');
+let enterN3 = prompt('Введите третье число ...');
+let enterN4 = prompt('Введите четвертое число ...');
 
 //let result1 = parseInt(enterN1) + parseInt(enterN2) 
 //+ parseInt(enterN3) + parseInt(enterN4);
