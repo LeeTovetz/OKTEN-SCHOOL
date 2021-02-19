@@ -196,8 +196,8 @@ console.log(filter7);
 
 //- сили більше 250  + виробник бмв
 
-let filter8 = cars.filter(value => value.power>250&&value.producer==='bmw');
-console.log(filter8);
+//let filter8 = cars.filter(value => value.power>250&&value.producer==='bmw');
+//console.log(filter8);
 
 // Дан масив :
 
@@ -216,28 +216,28 @@ let usersWithAddress = [
     ];
 // отсортировать его по id пользователей
 
- let sort1 = usersWithAddress.sort((a, b) => a.id-b.id);
-console.log(sort1);
+ //let sort1 = usersWithAddress.sort((a, b) => a.id-b.id);
+//console.log(sort1);
 
 //  отсортировать его по id пользователей в обратном опрядке
 
-let sort2 = usersWithAddress.sort((a, b) => b.id-a.id);
-console.log(sort2);
+//let sort2 = usersWithAddress.sort((a, b) => b.id-a.id);
+//console.log(sort2);
 
 // отсортировать его по возрасту пользователей
 
-let sort3 = usersWithAddress.sort((a, b) => a.age-b.age);
-console.log(sort3);
+//let sort3 = usersWithAddress.sort((a, b) => a.age-b.age);
+//console.log(sort3);
 
 // отсортировать его по возрасту пользователей в обратном порядке
 
-let sort4 = usersWithAddress.sort((a, b) => b.age-a.age);
-console.log(sort4);
+//let sort4 = usersWithAddress.sort((a, b) => b.age-a.age);
+//console.log(sort4);
 
 // отсортировать его по имени пользователей
 
-let sort5=usersWithAddress.sort((a, b) => (a.name.toLowerCase()<b.name.toLowerCase())?-1:1)
-console.log(sort5);
+//let sort5=usersWithAddress.sort((a, b) => (a.name.toLowerCase()<b.name.toLowerCase())?-1:1)
+//console.log(sort5);
 
 // отсортировать его по имени пользователей в обратном порядке
 
