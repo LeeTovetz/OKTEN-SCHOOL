@@ -249,7 +249,7 @@ console.log(numberArray1);
 
 let numberArray2 = [1, 2, 3];
 numberArray2.unshift(4,5,6);
-console.log(numberArray2);
+//console.log(numberArray2);
 
 // Task No. 33
 // Дан масив ['js', 'css', 'jq']. Виведіть на екран перший елемент за допомогою shift()
@@ -281,7 +281,7 @@ console.log(slicedArray);
 
 let arrayOfNumbers1 = [1, 2, 3, 4, 5];
 arrayOfNumbers1.splice(1, 2);
-//console.log(arrayOfNumbers1);
+console.log(arrayOfNumbers1);
 
 // Task No. 38
 // Дан масив [1, 2, 3, 4, 5]. За допомогою методу/функції splice зробіть з нього масив [1, 2, 3, 'a', 'b', 'c', 4, 5].
@@ -297,7 +297,7 @@ let arrayOfNumbers3 = [1, 2, 3, 4, 5];
 arrayOfNumbers3.splice(1,0,'a', 'b');
 arrayOfNumbers3.splice(5,0,'c');
 arrayOfNumbers3.splice(8,0,'e');
-console.log(arrayOfNumbers3);
+//console.log(arrayOfNumbers3);
 
 // Task No. 40
 // Взяти масив з 10 чисел або створити його. Вивести в консоль тільки ті елементи, значення яких є парними.
