@@ -1,4 +1,4 @@
-# <strong><a href="https://owu.com.ua/kursy-programuvannya-online/kurs-java-online/" target="_blank">OktenWeb-UniversITy.</strong></a><br>
+# <strong><a href="https://owu.com.ua/kursy-programuvannya-online/kurs-java-online/" target="_blank">OKTEN SCHOOL</strong></a><br>
   JAVA COMPLEX programming course and JavaScript.<br>
 <br><a href="https://owu.com.ua/kursy-programuvannya-online/kurs-java-online/">Online course JAVA COMPLEX (LIVE).</a><br><br>
 Program of the course:<br><ul>
