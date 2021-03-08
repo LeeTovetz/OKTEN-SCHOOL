@@ -78,7 +78,7 @@ for (const i of mass05) {
 
 for (const j of mass05) {
     if (typeof j === 'string') {
-        console.log(j);
+        //console.log(j);
 
     }
 }
@@ -105,7 +105,7 @@ list7[8] = 10521010<145513;
 list7[9] = 5445>787887;
 
 for (const list7Element of list7) {
-    console.log(list7Element);
+    //console.log(list7Element);
 }
 
 // Task No. 18
@@ -121,7 +121,7 @@ for (let i = 1; i < 11; i++) {
 // Створити цикл for на 100 ітерацій з кроком 1. Вивести поточний номер кроку через console.log та document.write
 
 for (let i = 1; i < 101; i++) {
-    console.log(i);
+    //console.log(i);
     document.writeln(i);
     document.writeln('<br>');
 }
@@ -130,7 +130,7 @@ for (let i = 1; i < 101; i++) {
  Створити цикл for на 100 ітерацій з кроком 2. Вивести поточний номер кроку через console.log та document.write
 
 for (let i = 1; i < 101; i+=2) {
-    console.log(i);
+    //console.log(i);
     document.writeln(i);
     document.writeln('<br>');
 }
@@ -140,7 +140,7 @@ for (let i = 1; i < 101; i+=2) {
 
 for (let i = 1; i < 101; i++) {
     if (i%2 === 0) {
-        console.log(i);
+        //console.log(i);
         document.writeln(i);
         document.writeln('<br>');
 
@@ -153,7 +153,7 @@ for (let i = 1; i < 101; i++) {
 
 for (let i = 1; i < 101; i++) {
     if (i%2 !== 0) {
-        console.log(i);
+        //console.log(i);
         document.writeln(i);
         document.writeln('<br>');
 
@@ -164,7 +164,7 @@ for (let i = 1; i < 101; i++) {
 
 for (let minute = 0; minute < 2; minute++) {
     for (let sec = 0; sec < 60; sec++) {
-        console.log('min: ' + minute +' '+'sec: ' + sec);
+        //console.log('min: ' + minute +' '+'sec: ' + sec);
     }
 }
 
@@ -177,7 +177,7 @@ for (let hour = 0; hour < 3; hour++) {
             break;
         }
         for (let second = 0; second < 60; second++) {
-            console.log('hour:' + hour + ' min:' + minute +' '+'sec:' + second);
+            //console.log('hour:' + hour + ' min:' + minute +' '+'sec:' + second);
         }
     }
 }
@@ -190,7 +190,7 @@ let word11 = '';
 for (let i = 0; i < arr11.length; i++) {
     word11+=arr11[i];
 }
-console.log(word11);
+//console.log(word11);
 
 
 // Task No. 27
@@ -202,7 +202,7 @@ while(i<arr11.length){
     word22+=arr11[i];
     i++;
 }
-console.log(word22);
+//console.log(word22);
 
 // Task No. 28
 // Дано масив: [ 'a', 'b', 'c'] . За допомогою циклу for of зібрати всі букви в слово.
@@ -211,7 +211,7 @@ let word33 = '';
 for (const element of arr11) {
     word33+=element;
 }
-console.log(word33);
+//console.log(word33);
 
 
 // Task No. 29
@@ -233,7 +233,7 @@ for (let j = numberArray.length - 1; j >= 0; j--) {
     const item = numberArray[j];
     reverseNumberArray.push(item);
 }
-console.log(reverseNumberArray);
+//console.log(reverseNumberArray);
 
 // Task No. 31
 // Дан масив [1, 2, 3]. Додайте йому в кінець елементи 4, 5, 6.
@@ -242,7 +242,7 @@ let numberArray1 = [1, 2, 3];
 for (let j = 4; j <=6; j++) {
     numberArray1.push(j);
 }
-console.log(numberArray1);
+//console.log(numberArray1);
 
 // Task No. 32
 // Дан масив [1, 2, 3]. Додайте йому в початок елементи 4, 5, 6
