@@ -1,13 +1,13 @@
 // Task No. 01-04
 
 let numbers = [89,45,1943,5,548];
-console.log(numbers);
+//console.log(numbers);
 
 let str = ['oleg', 'j', 'ten', 'mesh', 'asha'];
-console.log(str);
+//console.log(str);
 
 let mas = [20,30,50, 'summer', 'spring', 'year', 10>5, 12!=='21', 5=='5'];
-console.log(mas);
+//console.log(mas);
 
 // Task No. 05
 
@@ -15,7 +15,7 @@ let list = [];
 list[0] = 'ten';
 list[1] = 454554;
 list[2] = 7679494;
-console.log(list);
+//console.log(list);
 
  Task No. 07
  За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом всередині
@@ -53,17 +53,17 @@ while (counter <= 20) {
 // Створити масив з 10 числових елементів. Вивести в консоль всі його елементи в циклі.
 
 let numbers01 = [89,45,19,45,54,89,45,19,45,54];
-console.log(numbers01);
+//console.log(numbers01);
 
 // Task No. 12
 // Створити масив з 10 строкрових елементів. Вивести в консоль всі його елементи в циклі.
 let strList01 = ['a','45','19','45','b','89','45','c','45','d'];
-console.log(strList01);
+//console.log(strList01);
 
 // Task No. 13
 // Створити масив з 10 елементів будь-якого типу. Вивести в консоль всі його елементи в циклі.
 let arr01 = ['a','winter', 'autumn','89','45','c','45', 10>5,,'d'];
-console.log(arr01);
+//console.log(arr01);
 
 // Task No. 14, 15, 16
 // Створити масив з 10 елементів числового, стірчкового і булевого типу. За допомогою if та typeof вивести тільки булеві елементи
@@ -72,7 +72,7 @@ let mass05 = ['19','45','b','89','summer', 'winter', 5514, 963258, 10>5, 5>6];
 
 for (const i of mass05) {
     if (typeof i === 'boolean') {
-        console.log(i);
+        //console.log(i);
     }
 }
 
@@ -85,7 +85,7 @@ for (const j of mass05) {
 
 for (const k of mass05) {
     if (typeof k === 'number') {
-        console.log(k);
+        //console.log(k);
     }
 }
 
@@ -145,7 +145,6 @@ for (let i = 1; i < 101; i++) {
         document.writeln('<br>');
 
     }
-
 }
 
 // Task No. 23
