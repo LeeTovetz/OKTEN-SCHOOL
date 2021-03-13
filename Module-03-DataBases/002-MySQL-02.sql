@@ -59,7 +59,6 @@ SELECT COUNT(name), name
 FROM students
 GROUP BY name;
 
-
 SELECT *
 FROM students
 WHERE name LIKE '[a]%';
@@ -73,13 +72,7 @@ SELECT student_id
 FROM ratings
 WHERE rating = 5;
 
-
-
 SELECT * FROM students LEFT JOIN ratings r on students.id = r.student_id;
 SELECT * FROM students RIGHT JOIN ratings r on students.id = r.student_id;
 
-
 SELECT * FROM workers JOIN depts ON workers.dep_id = depts.id;
-
-
-
