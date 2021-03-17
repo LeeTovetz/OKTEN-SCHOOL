@@ -412,13 +412,13 @@ for (let j = numbersArr.length - 1; j >= 0; j--) {
 // 9. всі попередні завдання (окрім 8), але в зворотньому циклі (с заду на перед)
 
 for (let i=numbersArr.length-1; i >=0; i--) {
-    console.log(numbersArr[i]);
+    //console.log(numbersArr[i]);
 
 }
 
 let jl = numbersArr.length-1;
 while (jl>=0) {
-    console.log(numbersArr[jl]);
+    //console.log(numbersArr[jl]);
     jl--
 }
 
@@ -440,7 +440,7 @@ for (let j = 1; j < 102; j++) {
     emptyArray.push(j);
     }
 }
-    console.log(emptyArray);
+    //console.log(emptyArray);
 
 // Task No. 54  
 //заповнити його 50 непарними числами за допомоги циклу.
