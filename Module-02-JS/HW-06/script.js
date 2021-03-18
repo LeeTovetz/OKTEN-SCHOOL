@@ -8,18 +8,18 @@ console.log(numbers);
 // при помощи метода sort и колбека  отсортировать массив
 
 let sortNumbers=numbers.sort((a, b) => a-b);
-console.log(sortNumbers);
+//console.log(sortNumbers);
 
 // Task No. 03
 // при помощи filter получить числа кратные 3
 
-console.log(numbers.filter(value => value % 3 === 0));
+//console.log(numbers.filter(value => value % 3 === 0));
 
 // Task No. 04
 // при помощи filter получить числа кратные 10 
 
 let multiple10 = numbers.filter(value => !(value%10));
-console.log(multiple10);
+//console.log(multiple10);
 
 Task No. 05
 перебрать (проитерировать) массив при помощи foreach()
@@ -30,14 +30,14 @@ numbers.forEach(value => console.log(value));
 // перебрать массив при помощи map() и получить новый массив в котором все значения будут в 3 раза больше
 
 let multi3 = numbers.map(value => value*3);
-console.log(multi3);
+//console.log(multi3);
 
 // Task No. 07
 // создать массив со словами на 15-20 элементов
 
 let arrayStr=['If','it','takes','a','long','time','to','learn',
 'something','I','like','it','very','much','learn','javascript','course','it','too']
-console.log(arrayStr);
+//console.log(arrayStr);
 
 // Task No. 08
 // отсортировать его по алфавиту в восходящем порядке
@@ -45,29 +45,29 @@ console.log(arrayStr);
 console.log(arrayStr.map(value => value.toUpperCase()).sort());
 
 let strSort = arrayStr.sort((a, b) => (a.toLowerCase()<b.toLowerCase())?-1:1);
-console.log(strSort);
+//console.log(strSort);
 
 
 // Task No. 09
 // отсортировать его по алфавиту  в нисходящем порядке.
 
-console.log(arrayStr.map(value => value.toUpperCase()).reverse());
+//console.log(arrayStr.map(value => value.toUpperCase()).reverse());
 
 let strSortReverse = arrayStr.sort((a, b) => (a.toLowerCase()>b.toLowerCase())?-1:1)
-console.log(strSortReverse);
+//console.log(strSortReverse);
 
 
 // Task No. 10
 // отфильтровать слова длиной менее 4х символов
 
-console.log(arrayStr.filter(value => value.length <= 4));
+//console.log(arrayStr.filter(value => value.length <= 4));
 
 
 // Task No. 11
 // перебрать массив при помощи map() и получить новый
 // массив в котором все значения будут со знаком "!" в конце
 
-console.log(arrayStr.map(value => value + '!'));
+//console.log(arrayStr.map(value => value + '!'));
 
 // Task No. 12
 // Все робити через функції масивів (foreach, map ...тд)
