@@ -354,7 +354,7 @@ let z = 0;
 while(z<numbersArr.length){
     if (z%2!==0){
         const number = numbersArr[z];
-        console.log(number);
+        //console.log(number);
     }
     z++;
 }
@@ -471,7 +471,7 @@ let emptyArray2 = [];
 for (let j = 0; j < 10; j++) {
     emptyArray2[j]=Math.floor(Math.random() * (732 - 8)) + 8;
 }
-console.log(emptyArray2);
+//console.log(emptyArray2);
 
 // Task No. 57
 //  2. вывести на консоль  каждый третий елемент
@@ -500,7 +500,7 @@ for (let j = 2; j < emptyArray2.length; j+=3) {
     if (emptyArray2[j]%2===0){
         emptyArray3.push(emptyArray2[j]);
     }
-console.log(emptyArray3);
+//console.log(emptyArray3);
 }
 
 // Task No. 60
