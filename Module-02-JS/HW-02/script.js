@@ -17,8 +17,8 @@ list[1] = 454554;
 list[2] = 7679494;
 //console.log(list);
 
- Task No. 07
- За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом всередині
+ //Task No. 07
+ //За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом всередині
 
 for (let i = 0; i < 10; i++) {
     document.writeln(`<div><h1>hi</h1></div>`);
@@ -31,8 +31,8 @@ for (let i = 0; i < 10; i++) {
     document.writeln(`<div><h1>wooow ${i}</h1></div>`);
 }
 
-Task No. 09
-За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом всередині.
+//Task No. 09
+//За допомогою циклу while вивести в документ 20 блоків h1 c довільним текстом всередині.
 
 let counter = 0;
 while (counter < 20) {
