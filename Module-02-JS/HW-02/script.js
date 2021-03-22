@@ -221,7 +221,7 @@ for (let j = 1; j<=3; j++) {
     arrayNew=arr11;
     arrayNew.push(j);
 }
-console.log(arrayNew);
+//console.log(arrayNew);
 
 // Task No. 30
 // Дан масив [1, 2, 3]. Зробіть з нього новий масив [3, 2, 1]
