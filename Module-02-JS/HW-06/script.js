@@ -60,7 +60,7 @@ let strSortReverse = arrayStr.sort((a, b) => (a.toLowerCase()>b.toLowerCase())?-
 // Task No. 10
 // отфильтровать слова длиной менее 4х символов
 
-//console.log(arrayStr.filter(value => value.length <= 4));
+console.log(arrayStr.filter(value => value.length <= 4));
 
 
 // Task No. 11
