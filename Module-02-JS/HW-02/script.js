@@ -15,7 +15,7 @@ let list = [];
 list[0] = 'ten';
 list[1] = 454554;
 list[2] = 7679494;
-//console.log(list);
+console.log(list);
 
  //Task No. 07
  //За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом всередині
@@ -210,7 +210,7 @@ let word33 = '';
 for (const element of arr11) {
     word33+=element;
 }
-//console.log(word33);
+console.log(word33);
 
 
 // Task No. 29
@@ -462,7 +462,7 @@ let emptyArray1 = [];
 for (let j = 0; j < 10; j++) {
     emptyArray1[j]= Math.random();
     }
-console.log(emptyArray1);
+//console.log(emptyArray1);
 
 // Task No. 56
 //  диапазон рандома 8 до 732. (но сначала пробуйте БЕЗ ДИАПАЗОНА!)
