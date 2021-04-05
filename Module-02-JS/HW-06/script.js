@@ -19,7 +19,7 @@ let sortNumbers=numbers.sort((a, b) => a-b);
 // при помощи filter получить числа кратные 10 
 
 let multiple10 = numbers.filter(value => !(value%10));
-//console.log(multiple10);
+console.log(multiple10);
 
 Task No. 05
 перебрать (проитерировать) массив при помощи foreach()
@@ -45,7 +45,7 @@ let arrayStr=['If','it','takes','a','long','time','to','learn',
 console.log(arrayStr.map(value => value.toUpperCase()).sort());
 
 let strSort = arrayStr.sort((a, b) => (a.toLowerCase()<b.toLowerCase())?-1:1);
-//console.log(strSort);
+console.log(strSort);
 
 
 // Task No. 09
