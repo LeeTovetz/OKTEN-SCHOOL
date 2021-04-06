@@ -72,7 +72,7 @@ let mass05 = ['19','45','b','89','summer', 'winter', 5514, 963258, 10>5, 5>6];
 
 for (const i of mass05) {
     if (typeof i === 'boolean') {
-        //console.log(i);
+        console.log(i);
     }
 }
 
