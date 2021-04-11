@@ -163,7 +163,7 @@ for (let i = 1; i < 101; i++) {
 
 for (let minute = 0; minute < 2; minute++) {
     for (let sec = 0; sec < 60; sec++) {
-        //console.log('min: ' + minute +' '+'sec: ' + sec);
+        console.log('min: ' + minute +' '+'sec: ' + sec);
     }
 }
 
