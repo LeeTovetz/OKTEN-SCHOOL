@@ -73,27 +73,27 @@ alert(c1);
 d1 = 'asdfjkll';
 console.log(d1);
 document.writeln (d1 + "<br/>");
-alert(d1);
+//alert(d1);
 
 e1 = d1;
 console.log(e1);
 document.writeln (e1 + "<br/>");
-alert(e1);
+//alert(e1);
 
 f1 = 45454;
 console.log(f1);
 document.writeln (f1 + "<br/>");
-alert(f1);
+//alert(f1);
 
 g1 = 5;
 console.log(g1);
 document.writeln  (g1 + "<br/>");
-alert(g1);
+//alert(g1);
 
 h1 = 5485;
 console.log(h1);
 document.writeln (h1 + "<br/>");
-alert(h1);
+//alert(h1);
 
 i1 = 4545454545;
 console.log(i1);
@@ -108,12 +108,12 @@ document.writeln (j1 + "<br/>");
 k1 = 45487548;
 console.log(k1);
 document.writeln (k1 + "<br/>");
-alert(k1);
+//alert(k1);
 
 l1 = 'Super';
 console.log(l1);
 document.writeln (l1 + "<br/>");
-alert(l1);
+//alert(l1);
 
 m1 = 545105.54540;
 console.log(m1);
