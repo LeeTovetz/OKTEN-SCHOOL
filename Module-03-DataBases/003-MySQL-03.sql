@@ -123,9 +123,9 @@ WHERE  CreditState='not returned' ORDER BY Sum desc limit 1;
 
 #/*Find the client whose loan amount is the smallest*/
 
-//SELECT idClient, FirstName, LAStName, sum(Sum) AS suma, CreditState, Currency  FROM client
-//JOIN applicatiON a ON client.idClient = a.Client_idClient
- //GROUP BY idClient ORDER BY suma limit 1;
+SELECT idClient, FirstName, LAStName, sum(Sum) AS suma, CreditState, Currency  FROM client
+JOIN applicatiON a ON client.idClient = a.Client_idClient
+ GROUP BY idClient ORDER BY suma limit 1;
 
 #/*Find loans that are greater than the average of all loans*/
 
