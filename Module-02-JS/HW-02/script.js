@@ -296,7 +296,7 @@ let arrayOfNumbers3 = [1, 2, 3, 4, 5];
 arrayOfNumbers3.splice(1,0,'a', 'b');
 arrayOfNumbers3.splice(5,0,'c');
 arrayOfNumbers3.splice(8,0,'e');
-//console.log(arrayOfNumbers3);
+console.log(arrayOfNumbers3);
 
 // Task No. 40
 // Взяти масив з 10 чисел або створити його. Вивести в консоль тільки ті елементи, значення яких є парними.
