@@ -176,7 +176,7 @@ for (let hour = 0; hour < 3; hour++) {
             break;
         }
         for (let second = 0; second < 60; second++) {
-            console.log('hour:' + hour + ' min:' + minute +' '+'sec:' + second);
+            //console.log('hour:' + hour + ' min:' + minute +' '+'sec:' + second);
         }
     }
 }
