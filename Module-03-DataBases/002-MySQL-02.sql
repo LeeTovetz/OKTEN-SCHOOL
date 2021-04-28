@@ -9,7 +9,6 @@ SELECT users.nmae AS userNmae,
 FROM cars c
          JOIN users ON users.car_id = c.id
 
-
 SELECT *
 FROM ratings r
          JOIN lesson l ON l.id = r.lesson_id
@@ -32,7 +31,6 @@ FROM students s
          JOIN lesson l on r.lesson_id = l.id
 WHERE r.rating = 5;
 
-
 SELECT COUNT(id),
        gender
 FROM students
@@ -45,15 +43,12 @@ SELECT CONCAT(name, '_', age) FROM students;
 
 DELETE FROM students WHERE gender LIKE 'c%';
 
-
 SELECT * FROM students WHERE age = 20 OR age = 25 OR age = 30;
 SELECT * FROM students WHERE (age = 20 OR age = 25 OR age = 30) AND gender = 'male';
 SELECT * FROM students WHERE age IN (20, 25, 30);
 
-
 SELECT DISTINCT(name) FROM students;
 SELECT name FROM students;
-
 
 SELECT COUNT(name), name
 FROM students
@@ -62,7 +57,6 @@ GROUP BY name;
 SELECT *
 FROM students
 WHERE name LIKE '[a]%';
-
 
 SELECT *
 FROM students
