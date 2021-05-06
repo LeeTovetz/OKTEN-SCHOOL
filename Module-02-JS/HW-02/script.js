@@ -78,7 +78,7 @@ for (const i of mass05) {
 
 for (const j of mass05) {
     if (typeof j === 'string') {
-        console.log(j);
+        //console.log(j);
 
     }
 }
