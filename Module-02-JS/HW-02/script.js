@@ -78,7 +78,7 @@ for (const i of mass05) {
 
 for (const j of mass05) {
     if (typeof j === 'string') {
-        //console.log(j);
+        console.log(j);
 
     }
 }
@@ -112,7 +112,7 @@ for (const list7Element of list7) {
 // Створити цикл for на 10  ітерацій з кроком 1. Вивести поточний номер кроку через console.log та document.write
 
 for (let i = 1; i < 11; i++) {
-    console.log(i);
+    //console.log(i);
     document.writeln(i);
     document.writeln('<br>');
 }
