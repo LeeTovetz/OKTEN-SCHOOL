@@ -37,7 +37,7 @@ for (let i = 0; i < 10; i++) {
 let counter = 0;
 while (counter < 20) {
     document.writeln (`<div><h1>w ${counter}</h1></div>`);
-    //counter++;
+    counter++;
 }
 
 // Task No. 10
