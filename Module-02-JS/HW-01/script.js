@@ -2,11 +2,11 @@
 // Task No. 01
 
 let a1 = 'helo';
-console.log (a1);
+//console.log (a1);
 document.writeln (a1 + "<br/>");
 
 let b1 = 'owu';
-console.log(b1);
+//console.log(b1);
 document.writeln (b1 + "<br/>");
 
 let c1 = 'com';
