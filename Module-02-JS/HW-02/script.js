@@ -4,7 +4,7 @@ let numbers = [89,45,1943,5,548];
 //console.log(numbers);
 
 let str = ['oleg', 'j', 'ten', 'mesh', 'asha'];
-console.log(str);
+//console.log(str);
 
 let mas = [20,30,50, 'summer', 'spring', 'year', 10>5, 12!=='21', 5=='5'];
 //console.log(mas);
@@ -53,7 +53,7 @@ while (counter <= 20) {
 // Створити масив з 10 числових елементів. Вивести в консоль всі його елементи в циклі.
 
 let numbers01 = [89,45,19,45,54,89,45,19,45,54];
-console.log(numbers01);
+//console.log(numbers01);
 
 // Task No. 12
 // Створити масив з 10 строкрових елементів. Вивести в консоль всі його елементи в циклі.
@@ -72,20 +72,20 @@ let mass05 = ['19','45','b','89','summer', 'winter', 5514, 963258, 10>5, 5>6];
 
 for (const i of mass05) {
     if (typeof i === 'boolean') {
-        console.log(i);
+        //console.log(i);
     }
 }
 
 for (const j of mass05) {
     if (typeof j === 'string') {
-        console.log(j);
+        //console.log(j);
 
     }
 }
 
 for (const k of mass05) {
     if (typeof k === 'number') {
-        console.log(k);
+        //console.log(k);
     }
 }
 
@@ -163,7 +163,7 @@ for (let i = 1; i < 101; i++) {
 
 for (let minute = 0; minute < 2; minute++) {
     for (let sec = 0; sec < 60; sec++) {
-        console.log('min: ' + minute +' '+'sec: ' + sec);
+        //console.log('min: ' + minute +' '+'sec: ' + sec);
     }
 }
 
