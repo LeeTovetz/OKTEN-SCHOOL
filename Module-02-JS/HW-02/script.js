@@ -1,13 +1,13 @@
 // Task No. 01-04
 
 let numbers = [89,45,1943,5,548];
-console.log(numbers);
+//console.log(numbers);
 
 let str = ['oleg', 'j', 'ten', 'mesh', 'asha'];
-console.log(str);
+//console.log(str);
 
 let mas = [20,30,50, 'summer', 'spring', 'year', 10>5, 12!=='21', 5=='5'];
-console.log(mas);
+//console.log(mas);
 
 // Task No. 05
 
