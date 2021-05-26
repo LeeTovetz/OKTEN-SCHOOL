@@ -78,7 +78,7 @@ for (const i of mass05) {
 
 for (const j of mass05) {
     if (typeof j === 'string') {
-        //console.log(j);
+        console.log(j);
 
     }
 }
@@ -140,7 +140,7 @@ for (let i = 1; i < 101; i+=2) {
 
 for (let i = 1; i < 101; i++) {
     if (i%2 === 0) {
-        //console.log(i);
+        console.log(i);
         document.writeln(i);
         document.writeln('<br>');
 
