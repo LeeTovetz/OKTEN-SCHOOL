@@ -63,7 +63,7 @@ let strList01 = ['a','45','19','45','b','89','45','c','45','d'];
 // Task No. 13
 // Створити масив з 10 елементів будь-якого типу. Вивести в консоль всі його елементи в циклі.
 let arr01 = ['a','winter', 'autumn','89','45','c','45', 10>5,,'d'];
-console.log(arr01);
+//console.log(arr01);
 
 // Task No. 14, 15, 16
 // Створити масив з 10 елементів числового, стірчкового і булевого типу. За допомогою if та typeof вивести тільки булеві елементи
@@ -140,7 +140,7 @@ for (let i = 1; i < 101; i+=2) {
 
 for (let i = 1; i < 101; i++) {
     if (i%2 === 0) {
-        console.log(i);
+        //console.log(i);
         document.writeln(i);
         document.writeln('<br>');
 
@@ -210,7 +210,7 @@ let word33 = '';
 for (const element of arr11) {
     word33+=element;
 }
-console.log(word33);
+//console.log(word33);
 
 
 // Task No. 29
