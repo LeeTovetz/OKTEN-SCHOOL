@@ -15,7 +15,7 @@ let list = [];
 list[0] = 'ten';
 list[1] = 454554;
 list[2] = 7679494;
-console.log(list);
+//console.log(list);
 
  //Task No. 07
  //За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом всередині
@@ -53,7 +53,7 @@ while (counter <= 20) {
 // Створити масив з 10 числових елементів. Вивести в консоль всі його елементи в циклі.
 
 let numbers01 = [89,45,19,45,54,89,45,19,45,54];
-console.log(numbers01);
+//console.log(numbers01);
 
 // Task No. 12
 // Створити масив з 10 строкрових елементів. Вивести в консоль всі його елементи в циклі.
@@ -261,7 +261,7 @@ console.log(shiftedItem);
 // Дан масив ['js', 'css', 'jq']. Виведіть на екран останній елемент за допомогою pop()
 
 let poppedItem = arrayShift.pop();
-console.log(poppedItem);
+//console.log(poppedItem);
 
 // Task No. 35
 // Дан масив [1, 2, 3, 4, 5]. За допомогою методу/функції slice перетворіть масив в [4, 5]
@@ -287,7 +287,7 @@ console.log(arrayOfNumbers1);
 
 let arrayOfNumbers2 = [1, 2, 3, 4, 5];
 arrayOfNumbers2.splice(2, 0, 'a', 'b', 'c');
-console.log(arrayOfNumbers2);
+//console.log(arrayOfNumbers2);
 
 // Task No. 39
 // Дан масив [1, 2, 3, 4, 5]. За допомогою методу/функції splice зробіть з нього масив [1, 'a', 'b', 2, 3, 4, 'c', 5, 'e'].
@@ -304,7 +304,7 @@ console.log(arrayOfNumbers3);
 let numbers10 = [1,2,3,4,5,6,7,8,9,10];
 for (const number of numbers10) {
     if (number % 2 === 0){
-        console.log(number);
+        //console.log(number);
     }
 }
 
@@ -365,7 +365,7 @@ while(z<numbersArr.length){
 for (let i = 0; i < numbersArr.length; i++) {
     const number = numbersArr[i];
     if (i%2!==0){
-        console.log(number);
+        //console.log(number);
     }
 }
 
@@ -405,7 +405,7 @@ for (let j = 0; j < numbersArr.length; j++) {
 // 8. вивести масив в зворотньому порядку.
 
 for (let j = numbersArr.length - 1; j >= 0; j--) {
-    console.log(numbersArr[j]);
+    //console.log(numbersArr[j]);
 }
 
 // Task No. 52
@@ -425,7 +425,7 @@ while (jl>=0) {
 let k = numbersArr.length-1;
 while (k>=0) {
     if (numbersArr[k]%2 !==0) {
-        console.log(numbersArr[k]);
+        //console.log(numbersArr[k]);
     }
     k--
 }
@@ -451,7 +451,7 @@ for (let j = 1; j < 100; j++) {
     }
 
 }
-console.log(emptyArr);
+//console.log(emptyArr);
 
 
 
@@ -486,7 +486,7 @@ for (let j = 2; j < emptyArray2.length; j+=3) {
 
 for (let j = 2; j < emptyArray2.length; j+=3) {
     if (emptyArray2[j]%2===0){
-    console.log(emptyArray2[j]);
+    //console.log(emptyArray2[j]);
     }
 }
 
@@ -508,7 +508,7 @@ for (let j = 2; j < emptyArray2.length; j+=3) {
 
 for (let j = 0; j < emptyArray2.length; j++) {
     if (emptyArray2[j+1]%2===0){
-        console.log(emptyArray2[j]);
+        //console.log(emptyArray2[j]);
     }
 }
 
