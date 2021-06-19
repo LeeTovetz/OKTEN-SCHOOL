@@ -221,7 +221,7 @@ for (let j = 1; j<=3; j++) {
     arrayNew=arr11;
     arrayNew.push(j);
 }
-//console.log(arrayNew);
+console.log(arrayNew);
 
 // Task No. 30
 // Дан масив [1, 2, 3]. Зробіть з нього новий масив [3, 2, 1]
@@ -248,7 +248,7 @@ for (let j = 4; j <=6; j++) {
 
 let numberArray2 = [1, 2, 3];
 numberArray2.unshift(4,5,6);
-//console.log(numberArray2);
+console.log(numberArray2);
 
 // Task No. 33
 // Дан масив ['js', 'css', 'jq']. Виведіть на екран перший елемент за допомогою shift()
