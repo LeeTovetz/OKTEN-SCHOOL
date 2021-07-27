@@ -8,12 +8,12 @@ let numbers = [5656,1212,3645,5689,7778,6363,7070,3001,6736,412,143,2527,5263,50
 // при помощи метода sort и колбека  отсортировать массив
 
 let sortNumbers=numbers.sort((a, b) => a-b);
-//console.log(sortNumbers);
+console.log(sortNumbers);
 
 // Task No. 03
 // при помощи filter получить числа кратные 3
 
-//console.log(numbers.filter(value => value % 3 === 0));
+console.log(numbers.filter(value => value % 3 === 0));
 
 // Task No. 04
 // при помощи filter получить числа кратные 10 
