@@ -7,7 +7,7 @@ let str = ['oleg', 'j', 'ten', 'mesh', 'asha'];
 console.log(str);
 
 let mas = [20,30,50, 'summer', 'spring', 'year', 10>5, 12!=='21', 5=='5'];
-//console.log(mas);
+console.log(mas);
 
 // Task No. 05
 
@@ -15,7 +15,7 @@ let list = [];
 list[0] = 'ten';
 list[1] = 454554;
 list[2] = 7679494;
-//console.log(list);
+console.log(list);
 
  //Task No. 07
  //За допомогою циклу for і document.write() вивести 10 блоків div c довільним текстом всередині
