@@ -8,18 +8,18 @@ console.log(numbers);
 // при помощи метода sort и колбека  отсортировать массив
 
 let sortNumbers=numbers.sort((a, b) => a-b);
-console.log(sortNumbers);
+//console.log(sortNumbers);
 
 // Task No. 03
 // при помощи filter получить числа кратные 3
 
-console.log(numbers.filter(value => value % 3 === 0));
+//console.log(numbers.filter(value => value % 3 === 0));
 
 // Task No. 04
 // при помощи filter получить числа кратные 10 
 
 let multiple10 = numbers.filter(value => !(value%10));
-console.log(multiple10);
+//console.log(multiple10);
 
 Task No. 05
 перебрать (проитерировать) массив при помощи foreach()
