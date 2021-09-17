@@ -1,7 +1,7 @@
 // Task No. 01-04
 
 let numbers = [89,45,1943,5,548];
-//console.log(numbers);
+console.log(numbers);
 
 let str = ['oleg', 'j', 'ten', 'mesh', 'asha'];
 //console.log(str);
